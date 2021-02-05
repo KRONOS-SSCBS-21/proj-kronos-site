@@ -9,7 +9,7 @@ Updated View of the Website: [Click here](https://kronos-sscbs-21.github.io/proj
   <img src="https://contrib.rocks/image?repo=KRONOS-SSCBS-21/proj-kronos-site" />
 </a>
 
-Made with [contributors-img](https://contrib.rocks).
+Made with [contributors-img](https://contrib.rocks)
 :tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada: 
  
  
