@@ -11,10 +11,6 @@ Updated View of the Website: [Click here](https://kronos-sscbs-21.github.io/proj
 
 Made with [contributors-img](https://contributors-img.web.app).
 
-## Help Contributing Guides :crown:
-
-Please discuss it with us first by creating a new issue.
-
-:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada:
+:tada: :confetti_ball: :smiley: _**Happy Contributing**_ :smiley: :confetti_ball: :tada: 
  
  
