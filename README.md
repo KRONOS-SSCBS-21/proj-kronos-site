@@ -1,2 +1,3 @@
-# proj-kronos-site
-Kronos website source code
+# Kronos-Website
+
+Task for this week: Create Navbar and Banner Section in collaboration
