@@ -1,0 +1,15 @@
+.navbar .container-fluid{
+    padding: 0 120px;
+}
+
+@media (min-width: 1024){
+    .navbar .container-fluid{
+        padding: 0 90px;
+    }
+}
+
+@media (min-width: 940){
+    .navbar .container-fluid{
+        padding: 0 60px;
+    }
+}
