@@ -2,13 +2,13 @@
     padding: 0 120px;
 }
 
-@media (min-width: 1024){
+@media screen and (max-width: 1024px){
     .navbar .container-fluid{
         padding: 0 90px;
     }
 }
 
-@media (min-width: 940){
+@media screen and (max-width: 940px){
     .navbar .container-fluid{
         padding: 0 60px;
     }
