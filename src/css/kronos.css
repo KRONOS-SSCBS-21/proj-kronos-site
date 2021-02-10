@@ -6,6 +6,10 @@
     max-width: 200px;
 }
 
+.navbar-toggler-icon{
+    display: none;
+}
+
 .kronos-button{
     padding: 10px 24px;
     border-radius: 5px;
@@ -89,14 +93,59 @@
     opacity: 0.9;
 }
 
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapsing{
+    background: #30193f;
+    opacity: 0.97;
+}
+
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapsing,
+.navbar-collapse.collapse{
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 1240px){
+    .navbar-toggler-icon{
+        display: unset;
+    }
+
+    .navbar-toggler-icon svg{
+        stroke: white;
+        fill: white;
+    }
+}
+
 @media screen and (max-width: 1024px){
-    .navbar .container-fluid{
+    .navbar .container-fluid,
+    .kronos-block-inner-container{
         padding: 0 90px;
     }
 }
 
 @media screen and (max-width: 940px){
-    .navbar .container-fluid{
-        padding: 0 60px;
+    .navbar .container-fluid,
+    .kronos-block-inner-container{
+        padding: 0 40px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .navbar .container-fluid,
+    .kronos-block-inner-container{
+        padding: 0 20px;
+    }
+
+    .kronos-heading-block{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    .kronos-desc-block{
+        padding-left: 20px;
+    }
+
+    .kronos-button{
+        margin-left: 20px;
     }
 }
