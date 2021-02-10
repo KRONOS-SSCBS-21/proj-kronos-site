@@ -1,10 +1,45 @@
+.kronos-top-block-container{
+    min-height: 600px;
+}
+
+.kronos-logo{
+    max-width: 200px;
+}
+
+.kronos-button{
+    padding: 10px 24px;
+    border-radius: 5px;
+    border-color: #f7941e;
+    color: #f7941e;
+    width: max-content;
+    background: transparent;
+    margin-left: 40px;
+    font-size: 1.25rem;
+}
+
+.kronos-button:hover{
+    background: #f7941e;
+    color: white;
+}
+
+.navbar-brand{
+    font-size: 2.25rem;
+}
+
 .navbar .container-fluid{
     padding: 0 120px;
+    color: white;
+}
+
+.nav-link, 
+.navbar-brand{
+    color: white !important;
 }
 
 .kronos-block-container{
     padding-top: 60px;
     padding-bottom: 60px;
+    color: white;
 }
 
 .kronos-block-inner-container{
@@ -21,7 +56,7 @@
 .kronos-top-left-border {
     border-left: solid 1px #f7941e;
     position: absolute;
-    top: 120px;
+    top: 160px;
     border-top: solid 1px #f7941e;
     width: 120px;
     height: 110px;
@@ -50,6 +85,8 @@
 
 .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
+    background: #30193f;
+    opacity: 0.9;
 }
 
 @media screen and (max-width: 1024px){

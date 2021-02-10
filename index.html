@@ -11,39 +11,47 @@
     <script src='vendor/js/jquery-2.2.4.min.js'></script>
     <script src='src/js/header.js'></script>
 </head>
-<body>
+<body class="kronos-site">
 
-    <nav class="navbar smart-scroll navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Kronos</a>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
-              </li>
-            </ul>
-            <button class="btn btn-success">Contact Us</button>
-          </div>
+  <div class="kronos-top-block-container" style="background-image:url('assets/images/background.png')">
+    <nav class="navbar smart-scroll navbar-expand-lg navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img class="kronos-logo" src="assets/images/kronos-logo.png">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">About</a>
+            </li>
+          </ul>
+          <button class="btn btn-success">Contact Us</button>
         </div>
-      </nav>
+      </div>
+    </nav>
     <div class="kronos-block-container">
       <svg class="kronos-position-absolute" width="287" height="212" viewBox="0 0 287 212" xmlns="http://www.w3.org/2000/svg"><g transform="translate(1 -2.036)" fill="none" fill-rule="evenodd"><rect stroke="#7542E5" transform="rotate(49 201.5 50)" x="162" y="33" width="79" height="34" rx="17"/><circle stroke="#FF9640" cx="81.5" cy="131.5" r="81.5"/><path d="M273.936 3.676a3.873 3.873 0 0 1-.279 5.393l-.087.086a3.674 3.674 0 0 0-.221 5.158c1.353 1.497 3.649 1.639 5.16.318l.098-.082a3.895 3.895 0 0 1 5.444.334 3.88 3.88 0 0 1-.286 5.483c-4.706 4.228-11.954 3.84-16.185-.86-4.253-4.706-3.884-11.944.821-16.172a3.89 3.89 0 0 1 5.452.245l.042.048.04.05z" fill="#F80089"/></g></svg>
       <div class="kronos-block-inner-container">
         <p class="kronos-top-left-border"></p>
-        <h1 class="kronos-heading-block">The Tech Society of SSCBS</h1>
+        <div class="kronos-heading-block">
+          <h1>The Tech Society</h1>
+          <h1>of SSCBS</h1>
+        </div>
         <p class="kronos-desc-block">
           Here goes the description section where we write the description of our website
         </p>
+        <button class="kronos-button">Contact Us</button>
       </div>
     </div>
+  </div>
 </body>
 </html>
