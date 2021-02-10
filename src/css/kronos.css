@@ -150,3 +150,10 @@
         margin-left: 20px;
     }
 }
+
+@media screen and (max-width: 460px){
+    .kronos-position-absolute{
+        width: 140px;
+        height: 100px;
+    }
+}
