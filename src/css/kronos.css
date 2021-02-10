@@ -2,6 +2,56 @@
     padding: 0 120px;
 }
 
+.kronos-block-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.kronos-block-inner-container{
+    padding: 0 120px;
+    display: grid;
+    grid-row-gap: 40px;
+}
+
+.kronos-position-absolute{
+    position: absolute;
+    right: 0;
+}
+
+.kronos-top-left-border {
+    border-left: solid 1px #f7941e;
+    position: absolute;
+    top: 120px;
+    border-top: solid 1px #f7941e;
+    width: 120px;
+    height: 110px;
+}
+
+.kronos-heading-block{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.kronos-desc-block{
+    padding-left: 40px;
+}
+
+.smart-scroll{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.scrolled-down{
+    transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up{
+    transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+
 @media screen and (max-width: 1024px){
     .navbar .container-fluid{
         padding: 0 90px;
