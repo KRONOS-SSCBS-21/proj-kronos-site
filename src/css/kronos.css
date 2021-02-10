@@ -124,10 +124,23 @@
     }
 }
 
+@media screen and (max-width: 990px){
+    .navbar-collapse{
+        max-width: 340px;
+        position: absolute;
+        top: 80px;
+        right: 100px;
+    }
+}
+
 @media screen and (max-width: 940px){
     .navbar .container-fluid,
     .kronos-block-inner-container{
         padding: 0 40px;
+    }
+
+    .navbar-collapse{
+        right: 50px;
     }
 }
 
@@ -149,11 +162,20 @@
     .kronos-button{
         margin-left: 20px;
     }
+
+    .navbar-collapse{
+        right: 20px;
+    }
 }
 
 @media screen and (max-width: 460px){
     .kronos-position-absolute{
         width: 140px;
         height: 100px;
+    }
+
+    .navbar-collapse{
+        max-width: 90%;
+        right: 20px;
     }
 }
