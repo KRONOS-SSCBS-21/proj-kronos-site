@@ -329,4 +329,30 @@ span {
         max-width: 90%;
         right: 20px;
     }
+
+    .events-con,
+    .kronos-event-heading{
+        padding-top: 8%;
+    }
+
+    .event-heading,
+    .kronos-event-heading{
+        font-size: 2rem;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        display: none;
+    }
+
+    .carousel-indicators{
+        margin-bottom: -1rem;
+    }
+
+    .caro-pic{
+        width: 90%;
+    }
+
+    #events{
+        padding-bottom: 10%;
+    }
 }
