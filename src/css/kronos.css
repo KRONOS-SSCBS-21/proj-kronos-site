@@ -34,6 +34,7 @@
 .navbar .container-fluid{
     padding: 0 120px;
     color: white;
+    
 }
 
 .nav-link, 
@@ -74,6 +75,7 @@
 
 .kronos-desc-block{
     padding-left: 40px;
+    font-size: 1.25rem;
 }
 
 .smart-scroll{
@@ -178,4 +180,144 @@
         max-width: 90%;
         right: 20px;
     }
+}
+
+
+#about-us {
+    width: 100%;
+}
+
+#events {
+    background-color: #3b1d48;
+    margin-top: 0;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.events-con {
+    padding-top: 8%;
+}
+
+.abt-us-img {
+    height: 600px;
+    width: 500px;
+    border-radius: 25px 60px 25px 60px ;
+}
+
+.abt-us {
+    margin-top: 5%;
+    padding-right: 2%;
+}
+
+
+
+
+.row {
+    padding: 5% 6%;
+}
+
+span {
+    font-style: italic;
+    color: orangered;
+}
+
+.abt-us-heading {
+    color: orangered;
+    font-family: "oswald", sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    font-style:italic; 
+    
+}
+
+#abh {
+    color: #3b1d48;
+}
+
+.a {
+    font-size: 1.25 rem;
+    text-align: justify;
+}
+
+.event-heading {
+    font-family: "oswald", sans-serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 4.75%;
+    color: antiquewhite;
+    animation-name: headingup;
+    animation-duration: 0.6s;
+}
+
+.carousel-control-prev {
+    color: #383e56;
+}
+
+.carousel-control-next {
+    color: #383e56;
+}
+
+.card-group {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+
+
+.event-card {
+    margin: 2% 2%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.caro-pic {
+    width: 75%;
+    margin-bottom: 4%;
+}
+
+.card-img-top:hover{ opacity: 0.5;}
+
+@keyframes headingup{
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+
+
+
+#events {
+    
+}
+
+.card-img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+#upcoming-events {
+    background-color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+.up-event-heading {
+    font-family: "oswald", sans-serif;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 4.75%;
+    color: #3b1d48;
+    animation-name: headingup;
+    animation-duration: 0.6s;
+}
+
+.kronos-h1 {
+    font-weight: 800;
+    font-size: 3rem;
 }
