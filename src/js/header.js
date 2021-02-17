@@ -10,7 +10,6 @@ window.addEventListener("DOMContentLoaded", () => {
         var last_scroll_top = 0;
         $(window).on('scroll', function() {
             scroll_top = $(this).scrollTop();
-            console.log(scroll_top, "scroll top");
             if(scroll_top == 0) {
                 $('.smart-scroll').removeClass('scrolled-up')
             }
