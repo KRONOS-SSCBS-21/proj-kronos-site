@@ -15,16 +15,16 @@
     padding: 10px 24px;
     border-radius: 5px;
     border-color: #f7941e;
-    color: #f7941e;
+    color: white;
     width: max-content;
-    background: transparent;
+    background-color: #f7941e;
     margin-left: 40px;
     font-size: 1.25rem;
 }
 
 .kronos-button:hover{
-    background: #f7941e;
-    color: white;
+    background-color: white;
+    color: #f7941e;
 }
 
 .navbar-brand{
