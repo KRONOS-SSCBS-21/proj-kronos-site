@@ -126,6 +126,9 @@
     padding: 4% 7%;
     text-align: center;
 }
+.col-card{
+    padding: 0 2.8%;
+}
 .btn:hover{
     border-color: orange;
     background-color: rgb(241, 162, 13);
