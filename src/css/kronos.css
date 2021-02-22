@@ -128,8 +128,8 @@
 }
 .col-card{
     padding: 0 2.8%;
-    box-shadow: 5px 5px 10px;
 }
+
 .btn:hover{
     border-color: orange;
     background-color: rgb(241, 162, 13);
