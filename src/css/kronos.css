@@ -111,7 +111,6 @@
 /* Events-Cards Section */
 .kronos-events-cards{
     width: auto;
-    height: 600px;
 }
 .kronos-event-heading{
     padding-top: 3.5%;
@@ -295,6 +294,69 @@ button.close {
     margin: auto auto;
 }
 
+/* ---- Footer Section ----*/
+
+.page-footer{
+    background-color:rgba(10, 10, 10, 0.863);
+    color: white !important;
+}
+
+.page-footer a{
+    color: white !important;
+    text-decoration: unset;
+} 
+
+.page-footer .back{
+    padding: 20px 0;
+} 
+
+.page-footer .back .row{
+    padding: 0 !important;
+} 
+
+.page-footer .back a{
+    color: white !important;
+    text-decoration: unset;
+    padding: 0 30px;
+} 
+
+.page-footer .mb-4{
+    text-align: left;
+}
+
+.back{
+    /* background-color:rgb(238, 66, 238) */
+    background-image: linear-gradient(to right, rgba(203, 62, 221, 0.904), rgba(241, 52, 124, 0.884));
+}
+
+.bg-primary .container{
+    background-color:rgba(37, 37, 37, 0.671);
+}
+
+.end-container h4{
+    font-family:monospace;
+    font-size:30px;
+}
+
+.hr-bg{
+    background-color:rgb(199, 43, 186);
+}
+
+.back i:hover{
+    font-size: 25px;
+    
+}
+
+.kronos-footer-link-column{
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-gap: 10px;
+}
+
+.kronos-footer-link-column i{
+    padding-top: 5px;
+}
+
 @keyframes headingup{
     0% {opacity: 0;}
     50% {opacity: 0.5;}
@@ -365,6 +427,10 @@ button.close {
     .kronos-clamp-desc{
         -webkit-line-clamp: 4;
     }
+
+    .page-footer .back a {
+        padding: 0 25px;
+    }
 }
 
 @media screen and (max-width: 460px){
@@ -402,5 +468,9 @@ button.close {
 
     #events{
         padding-bottom: 10%;
+    }
+
+    .page-footer .back a {
+        padding: 0 12px;
     }
 }
