@@ -92,13 +92,13 @@
 
 .scrolled-up{
     transform:translateY(0); transition: all 0.3s ease-in-out;
-    background: #30193f;
+    background: #0f4e95;
     opacity: 0.9;
 }
 
 .navbar-collapse.collapse.show,
 .navbar-collapse.collapsing{
-    background: #30193f;
+    background: #0f4e95;
     opacity: 0.97;
 }
 
@@ -170,7 +170,7 @@
     margin-right: auto;
 }
 
-span {
+.italic-red {
     font-style: italic;
     color: orangered;
 }
@@ -257,6 +257,44 @@ span {
     padding: 1.4rem 1.4rem;
 }
 
+.modal-open .modal{
+    background: rgba(51,51,51,.5);
+}
+
+.close{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1.2rem -1rem -1rem auto;
+}
+
+.kronos-clamp-desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+
+.modal .modal-dialog{
+    margin: auto auto;
+}
+
 @keyframes headingup{
     0% {opacity: 0;}
     50% {opacity: 0.5;}
@@ -322,6 +360,10 @@ span {
 
     .navbar-collapse{
         right: 20px;
+    }
+
+    .kronos-clamp-desc{
+        -webkit-line-clamp: 4;
     }
 }
 
