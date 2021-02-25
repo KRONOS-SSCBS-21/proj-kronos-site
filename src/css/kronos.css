@@ -139,7 +139,8 @@
 }
 
 #events {
-    background-color: #3b1d48;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,103,199,1) 43%, rgba(0,179,255,0.8231442235097164) 100%);
     margin-top: 0;
     width: 100%;
     align-content: center;
@@ -357,6 +358,10 @@ button.close {
     padding-top: 5px;
 }
 
+.page-footer .row {
+    padding: 3% 5% 0%;
+}
+
 @keyframes headingup{
     0% {opacity: 0;}
     50% {opacity: 0.5;}
@@ -398,6 +403,10 @@ button.close {
 
     .navbar-collapse{
         right: 50px;
+    }
+
+    .page-footer .row {
+        padding: 7% 5% 3%;
     }
 }
 
@@ -472,5 +481,9 @@ button.close {
 
     .page-footer .back a {
         padding: 0 12px;
+    }
+
+    .page-footer hr:not([size]) {
+        margin-bottom: 0 !important;
     }
 }
