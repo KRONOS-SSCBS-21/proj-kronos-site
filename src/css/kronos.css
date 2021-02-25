@@ -14,10 +14,11 @@
 .kronos-button{
     padding: 10px 24px;
     border-radius: 5px;
-    border-color: #f7941e;
+    border-color:  rgb(255, 82, 19);
     color: white;
     width: max-content;
-    background-color: #f7941e;
+    /* background-color: #f7941e; */
+    background-color:  rgb(255, 79, 15);
     margin-left: 40px;
     font-size: 1.25rem;
 }
@@ -183,7 +184,7 @@
 }
 
 #abh {
-    color: #3b1d48;
+    color: #006aa7;
 }
 
 .a {
@@ -298,7 +299,7 @@ button.close {
 /* ---- Footer Section ----*/
 
 .page-footer{
-    background-color:rgba(10, 10, 10, 0.863);
+    background-color:rgba(23, 31, 43, 0.918);
     color: white !important;
 }
 
@@ -326,8 +327,8 @@ button.close {
 }
 
 .back{
-    /* background-color:rgb(238, 66, 238) */
-    background-image: linear-gradient(to right, rgba(203, 62, 221, 0.904), rgba(241, 52, 124, 0.884));
+    /* background-image: linear-gradient(to right, rgba(44, 150, 221, 0.904), rgba(26, 38, 218, 0.884)); */
+    background: linear-gradient(90deg,rgba(24, 150, 204, 0.863) 30%, rgba(20,103,199,1) 50%,  rgba(13, 5, 124, 0.897) 100%);
 }
 
 .bg-primary .container{
@@ -340,11 +341,14 @@ button.close {
 }
 
 .hr-bg{
-    background-color:rgb(199, 43, 186);
+    background-color:rgb(43, 92, 199);
 }
 
+.back i{
+    font-size:25px;
+}
 .back i:hover{
-    font-size: 25px;
+    font-size: 31px;
     
 }
 
