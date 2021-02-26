@@ -12,20 +12,11 @@
 }
 
 .kronos-button{
-    padding: 10px 24px;
-    border-radius: 5px;
-    border-color:  rgb(255, 82, 19);
-    color: white;
-    width: max-content;
-    /* background-color: #f7941e; */
-    background-color:  rgb(255, 79, 15);
-    margin-left: 40px;
+    padding: 10px 24px;  
+    width: max-content; 
+    margin-left: 5%;
     font-size: 1.25rem;
-}
-
-.kronos-button:hover{
-    background-color: white;
-    color: #f7941e;
+    font-weight: 400;
 }
 
 .navbar-brand{
