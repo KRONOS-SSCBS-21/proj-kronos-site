@@ -121,6 +121,7 @@
 .card:hover{
     border-radius: 5px;
     box-shadow: 5px 10px 8px #888888;
+    background-color: #4285f4;
 }
 .cards{
     padding: 4% 7%;
@@ -128,11 +129,24 @@
 }
 .col-card{
     padding: 0 2.8%;
+    background-color: #f1f1f1;
+}
+
+.card-title:hover{
+    color: white;
+}
+
+.card-text{
+    color: #878787;
+}
+
+.card-text:hover{
+    color: #bed5fb;
 }
 
 .btn:hover{
-    border-color: orange;
-    background-color: rgb(241, 162, 13);
+    border-color: white;
+    
 }
 
 #about-us {
@@ -171,20 +185,16 @@
     margin-right: auto;
 }
 
-.italic-red {
+.italic-blue {
     font-style: italic;
-    color: orangered;
+    color:#3c82f7;
 }
 
 .abt-us-heading {
-    color: orangered;
+    color: black;
     font-size: 3rem;
     font-weight: 900;
-    font-style:italic;  
-}
-
-#abh {
-    color: #006aa7;
+    font-style: normal;  
 }
 
 .a {
