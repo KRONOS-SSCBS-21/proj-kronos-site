@@ -121,7 +121,6 @@
 .card:hover{
     border-radius: 5px;
     box-shadow: 5px 10px 8px #888888;
-    background-color: #4285f4;
 }
 .cards{
     padding: 4% 7%;
@@ -129,24 +128,14 @@
 }
 .col-card{
     padding: 0 2.8%;
-    background-color: #f1f1f1;
 }
 
-.card-title:hover{
-    color: white;
+.card{
+    background-color: #f1f1f1;
 }
 
 .card-text{
     color: #878787;
-}
-
-.card-text:hover{
-    color: #bed5fb;
-}
-
-.btn:hover{
-    border-color: white;
-    
 }
 
 #about-us {
@@ -193,7 +182,7 @@
 .abt-us-heading {
     color: black;
     font-size: 3rem;
-    font-weight: 900;
+    font-weight: 800;
     font-style: normal;  
 }
 
