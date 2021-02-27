@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
 		minWidth: 200.00,
 		scale: 1.00,
 		scaleMobile: 1.00,
-		color: 0xf4e95,
+		color: 0x4fc6,
 		shininess: 32.00,
 		waveHeight: 12.00,
 		waveSpeed: 0.50
