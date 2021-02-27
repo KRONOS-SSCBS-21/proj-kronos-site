@@ -78,20 +78,58 @@
     z-index: 1030;
 }
 
+.navbar.scrolled-up .kronos-logo.sticky{
+    display: block;
+}
+
+.navbar.scrolled-up .kronos-logo{
+    display: none;
+}
+
+.kronos-logo.sticky{
+    display: none;
+}
+
 .scrolled-down{
     transform:translateY(-100%); transition: all 0.3s ease-in-out;
 }
 
 .scrolled-up{
-    transform:translateY(0); transition: all 0.3s ease-in-out;
-    background: #0f4e95;
-    opacity: 0.9;
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
+    background: #fafafa;
+    opacity: 0.96;
+    border-bottom: solid 1px #e0e0e1;
+}
+
+.show .btn-outline-light,
+.collapsing .btn-outline-light,
+.scrolled-up .btn-outline-light{
+    background: #014FC6;
+}
+
+.scrolled-up .btn-outline-light:hover {
+    color: #f8f9fa;
+}
+
+.navbar-light .show>.navbar-nav .nav-link,
+.navbar-light .show>.navbar-nav .nav-link,
+.navbar-light .collapsing>.navbar-nav .nav-link,
+.scrolled-up.navbar-light .navbar-nav .nav-link,
+.scrolled-up.navbar-light .navbar-nav .nav-link,
+.scrolled-up.navbar-light .navbar-nav .nav-link{
+    color: black !important;
 }
 
 .navbar-collapse.collapse.show,
 .navbar-collapse.collapsing{
-    background: #0f4e95;
+    background: #fafafa;
     opacity: 0.97;
+}
+
+.navbar-collapse.collapse.show .btn-outline-light,
+.navbar-collapse.collapsing .btn-outline-light{
+    margin-bottom: 20px;
 }
 
 .navbar-collapse.collapse.show,
@@ -290,7 +328,7 @@ button.close {
 
 .page-footer{
     /* background-color:#56585c; */
-    background-color: #56c5d0;
+    background-color: #f9f9fa;
     color: black !important;
 }
 
@@ -312,10 +350,6 @@ button.close {
     text-decoration: unset;
     padding: 0 30px;
 } 
-
-.page-footer .mb-4{
-    text-align: left;
-}
 
 /* .back{
     background-image: linear-gradient(to right, rgba(44, 150, 221, 0.904), rgba(26, 38, 218, 0.884));
@@ -344,14 +378,15 @@ button.close {
     
 }
 
-.kronos-footer-link-column{
+/* .kronos-footer-link-column{
     display: grid;
     grid-template-columns: 20px auto;
     grid-gap: 10px;
-}
+} */
 
 .kronos-footer-link-column i{
     padding-top: 5px;
+    padding-right: 5px;
 }
 
 .page-footer .row {
@@ -360,6 +395,10 @@ button.close {
 
 .kronos-copyright-text{
     padding: 0px 15px 15px;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: none;
 }
 
 @keyframes headingup{
@@ -377,6 +416,11 @@ button.close {
         stroke: white;
         fill: white;
     }
+
+    .scrolled-up .navbar-toggler-icon svg{
+        stroke: black;
+        fill: black;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -390,7 +434,7 @@ button.close {
     .navbar-collapse{
         max-width: 340px;
         position: absolute;
-        top: 80px;
+        top: 74px;
         right: 100px;
     }
 }
