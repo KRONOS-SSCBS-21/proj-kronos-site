@@ -1,0 +1,21 @@
+body{
+  margin: 20px;
+  padding:30px;
+}
+.heading{
+  text-align:center;
+}
+
+.row{
+  padding: 10px;
+
+}
+.president{
+   width: 100px;
+   height: 500px;
+   padding:100px;
+}
+.card-img-top{
+  width:100px;
+  height:100px;
+}
