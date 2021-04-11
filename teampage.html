@@ -10,264 +10,401 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/css/teampg.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='vendor/css/bootstrap.min.css'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='src/css/kronos.css'>
+    <script src='vendor/js/bootstrap.min.js'></script>
+    <script src='vendor/js/jquery-2.2.4.min.js'></script>
+    <!-- <script src='src/js/header.js'></script> -->
     <!-- Font Awesome  -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
-<body>
+<body class="kronos-site kronos-teampage">
 
-  <div>
-    <h1 class="heading">Team Page</h1>
+  <!-- Modal -->
+  <div class="modal fade" id="kronos-modal" tabindex="-1" role="dialog" aria-labelledby="kronos-modal-title" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="kronos-modal-title">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+      </div>
+    </div>
   </div>
 
-<!-- President and Vice President -->
-<div class="row">
-  <div class="col-lg-6 president">
-    <div class="card h-100">
-      <img src="src/assets/Team Member images/ACs/Harit_Saini.jpg" class="card-img-top" alt="President">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
+  <nav class="navbar smart-scroll navbar-expand-lg navbar-light scrolled-up">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="kronos-logo" src="assets/images/kronos-logo.png">
+        <img class="kronos-logo sticky" src="assets/images/kronos-logo-black.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">
+          <svg viewBox="0 0 100 80" width="30" height="30">
+            <rect width="100" height="20"></rect>
+            <rect y="30" width="100" height="20"></rect>
+            <rect y="60" width="100" height="20"></rect>
+        </svg>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us" tabindex="-1" aria-disabled="true">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#events">Latest</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#kronos-events-cards">Events</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-light">Contact Us</button>
       </div>
     </div>
-  </div>
-  <div class="col-lg-6 col-md-12 president">
-    <div class="card h-100">
-      <img src="src/assets/Team Member images/ACs/WhatsApp Image 2020-06-18 at 20.52.36.jpeg" class="card-img-top" alt="Vice-President">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
+  </nav>
+  <div class="kronos-page-container">
+    <h1 class="heading">Meet <span style="color: #014FC6;;">Our</span> Team</h1>
+    <!-- President and Vice President -->
+    <div class="team-cards-year3">
+      <div class="members-cards-year3">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images-year3" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards-year3">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/WhatsApp Image 2020-06-18 at 20.52.36.jpeg" class="member-images-year3" alt="Vice-President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Core Committee Members -->
-<div>
-  <h3 class="heading">Core Committee Members</h3>
-</div>
-<div class="row row-cols-md-4">
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
+    <!-- Core Committee Members -->
+    <div>
+      <h3 class="team-heading"><span style="color: #014FC6;;">Core Committee</span> Members</h3>
+    </div>
+    <div class="team-cards">
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
 
-<!-- Organsing Committee Members -->
-<div>
-  <h3 class="heading">Organsing Committee Members</h3>
-</div>
-<div class="row row-cols-md-3">
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
+    <!-- Organsing Committee Members -->
+    <div>
+      <h3 class="team-heading"><span style="color: #014FC6;;">Organsing Committee</span> Members</h3>
+    </div>
+    <div class="team-cards">
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+      <div class="members-cards">
+        <div class="card h-100">
+          <img src="assets/images/team_members/acs/Harit_Saini.jpg" class="member-images" alt="President">
+          <div class="member-social-media">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+          <div class="member-card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
+  <!---- FOOTER SECTION ---->
+  <section>
+    <footer class="page-footer">  
+      <div class="container text-center text-md-left mt-5">
+      <div class="row">    
+          <div class="col-md-3 mx-auto mb-4">
+          <h5 class="text-uppercase font-weight-bold">Links</h5>
+          <hr class="hr-bg mb-4 mt-0 d-inline-block mx-auto" style="width: 131px; height: 3px">
+          <p class="mt-2">Home</p>
+          <p class="mt-2">About</p>
+          <p class="mt-2">Speakers</p>
+          </div>
+
+          <div class="col-md-3 mx-auto mb-4">
+          <h5 class="text-uppercase font-weight-bold">Lorem</h5>
+          <hr class="hr-bg mb-4 mt-0 d-inline-block mx-auto" style="width: 131px; height: 3px">
+
+          <ul class="list-unstyled">
+              <li class="my-2"><a href="#"></a></li>
+              <li class="my-2"><a href="#">Ipsum</a></li>
+              <li class="my-2"><a href="#">Dolor</a></li>
+              <li class="my-2"><a href="#">tempor</a></li>
+          </ul>
+          </div>
+
+          <div class="col-md-3 mx-auto mb-4">
+              <h5 class="text-uppercase font-weight-bold">Contact Us</h5>
+              <hr class="hr-bg mb-4 mt-0 d-inline-block mx-auto" style="width: 131px; height: 3px">
+
+              <ul class="list-unstyled">
+              <li class="my-2"><a href="#" class="kronos-footer-link-column">
+                <i class="fas fa-home"></i> 
+                Shaheed Sukhdev College of Business Studies
+                Dr. K.N. Katju Marg
+                Rohini Sector 16, PSP Area IV
+                New Delhi, Delhi 110089
+              </a></li>
+              <li class="my-2">
+                <div class="kronos-footer-link-column">
+                  <i class="fa fa-phone mr-2"></i>
+                  <a href="tel:70658932434">+91 7065899789
+                    <br> Name 1
+                  </a>
+                </div>
+              </li>
+              <li class="my-2">
+                <div class="kronos-footer-link-column">
+                  <i class="fa fa-phone mr-2"></i>
+                  <a href="tel:70658994324">+91 7065899789
+                    <br> Name 2
+                  </a>
+                </div>
+              </li>
+              </ul>
+          </div>
       </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
       </div>
+      <div class="back">
+        <div class="container">
+            <div class="row py-4 d-flex align-items-center">
+                <div class="col-md-12 text-center">
+                    <a href="#"><i class="fab fa-instagram mr-5"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in mr-5"></i></a>
+                    <a href="#"><i class="fab fa-twitter mr-5"></i></a>
+                    <a href="#"><i class="fab fa-youtube mr-5"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f mr-5"></i></a>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
+      <div class="kronos-copyright-text" style="width:100%;">
+          <div class="end-container" style="width:100%;">
+              <h6 style="text-align:center; "><br>Designed with 
+                  <i Class="fas fa-heart" style="color:rgb(255, 0, 0);"></i> by Team Kronos</h6>
+          </div>
       </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-3">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+    </footer>
+  </section>
+  <script src="src/js/kronos.js"></script>
 </body>
 </html>
