@@ -31,6 +31,12 @@
   height: 250px;
 }
 
+.members-cards .card,
+.members-cards-year3 .card{
+  border-radius: 5px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
 .kronos-teampage .navbar{
   background: #fafafa;
 }
@@ -39,9 +45,9 @@
   padding-top: 140px;
 }
 
-.kronos-teampage .navbar .container-fluid {
+/* .kronos-teampage .navbar .container-fluid {
   padding: 0 90px;
-}
+} */
 
 .member-images,
 .member-images-year3{
@@ -51,6 +57,8 @@
   position: absolute;
   top: -70px;
   left: 75px;
+  object-fit: cover;
+  box-shadow: 6px 4px 18px #f7941e;
 }
 
 .member-social-media {
