@@ -25,6 +25,7 @@
 }
 
 .members-cards,
+.members-cards-year2,
 .members-cards-year3{
   width: 350px !important;
   margin-top: 80px;
@@ -32,9 +33,30 @@
 }
 
 .members-cards .card,
+.members-cards-year2 .card,
 .members-cards-year3 .card{
   border-radius: 5px;
   box-shadow: 5px 10px 8px #888888;
+}
+
+.members-cards .card:hover{
+  border-radius: 8px;
+  box-shadow: 7px 12px 10px #4c9191;
+}
+
+.members-cards-year2 .card:hover{
+  border-radius: 8px;
+  box-shadow: 7px 12px 10px #d39614e1;
+}
+
+.members-cards-year3 .card:hover{
+  border-radius: 8px;
+  box-shadow: 7px 12px 10px #f112f1cc;
+}
+
+.card-title{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .kronos-teampage .navbar{
@@ -49,7 +71,6 @@
   padding: 0 90px;
 } */
 
-.member-images,
 .member-images-year3{
   border-radius: 100px;
   width: 150px;
@@ -58,9 +79,38 @@
   top: -70px;
   left: 75px;
   object-fit: cover;
-  box-shadow: 6px 4px 18px #f7941e;
+  box-shadow: 6px 4px 18px #da10da;
 }
 
+.member-images-year2{
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -70px;
+  left: 75px;
+  object-fit: cover;
+  box-shadow: 6px 4px 18px #e49a10;
+
+}
+
+.member-images{
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: -70px;
+  left: 90px;
+  object-fit: cover;
+  box-shadow: 6px 4px 18px #2964bd;
+
+}
+.align-card{
+  margin-left: 50%;      
+  margin-right: 50%;
+  width: auto;
+
+}
 .member-social-media {
   position: absolute;
   right: 0;
@@ -133,6 +183,7 @@
   }
 
   .members-cards,
+  .members-cards-year2,
   .members-cards-year3{
     width: 300px !important;
   }
@@ -145,6 +196,7 @@
   }
 
   .member-images,
+  .member-images-year2,
   .member-images-year3{
     border-radius: 100px;
     width: 150px;
@@ -153,6 +205,7 @@
   }
 
   .members-cards,
+  .members-cards-year2,
   .members-cards-year3{
     width: 360px !important;
   }
@@ -173,6 +226,7 @@
   }
 
   .members-cards,
+  .members-cards-year2,
   .members-cards-year3{
     width: 300px !important;
   }
