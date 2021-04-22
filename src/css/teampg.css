@@ -36,22 +36,22 @@
 .members-cards-year2 .card,
 .members-cards-year3 .card{
   border-radius: 5px;
-  box-shadow: 5px 10px 8px #888888;
+  background-color: #FFF;
 }
 
 .members-cards .card:hover{
   border-radius: 8px;
-  box-shadow: 7px 12px 10px #4c9191;
+  box-shadow: 7px 12px 10px #863fc0;
 }
 
 .members-cards-year2 .card:hover{
   border-radius: 8px;
-  box-shadow: 7px 12px 10px #d39614e1;
+  box-shadow: 7px 12px 10px #00FF00;
 }
 
-.members-cards-year3 .card:hover{
+.members-cards-year3{
   border-radius: 8px;
-  box-shadow: 7px 12px 10px #f112f1cc;
+  box-shadow: 5px 10px 18px #fd7e14;
 }
 
 .card-title{
@@ -79,7 +79,7 @@
   top: -70px;
   left: 75px;
   object-fit: cover;
-  box-shadow: 6px 4px 18px #da10da;
+  box-shadow: 5px 10px 18px #fd7e14;
 }
 
 .member-images-year2{
@@ -90,7 +90,7 @@
   top: -70px;
   left: 75px;
   object-fit: cover;
-  box-shadow: 6px 4px 18px #e49a10;
+  box-shadow: 6px 4px 18px #00FF00;
 
 }
 
@@ -102,7 +102,7 @@
   top: -70px;
   left: 90px;
   object-fit: cover;
-  box-shadow: 6px 4px 18px #2964bd;
+  box-shadow: 6px 4px 18px #863fc0;
 
 }
 .align-card{
@@ -120,8 +120,35 @@
   border-radius: 0 0 0 5px;
   padding: 10px 16px;
 }
+.member-social-media-cc {
+  position: absolute;
+  right: 0;
+  display: grid;
+  grid-gap: 5px;
+  background: #00FF00;
+  border-radius: 0 0 0 5px;
+  padding: 10px 16px;
+}
+
+.member-social-media-oc {
+  position: absolute;
+  right: 0;
+  display: grid;
+  grid-gap: 5px;
+  background: #863fc0;
+  border-radius: 0 0 0 5px;
+  padding: 10px 16px;
+}
 
 .member-social-media a{
+  color: white;
+}
+
+.member-social-media-cc a{
+  color: white;
+}
+
+.member-social-media-oc a{
   color: white;
 }
 
