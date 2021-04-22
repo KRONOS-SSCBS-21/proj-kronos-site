@@ -7,6 +7,10 @@
     max-height: 60px;
 }
 
+.navbar{
+    overflow: hidden;
+    position: fixed;
+}
 .navbar-toggler-icon{
     display: none;
 }
@@ -23,7 +27,7 @@
     font-size: 2.25rem;
 }
 
-.navbar .container-fluid{
+.container-fluid{
     padding: 0 120px;
     color: white;
     
@@ -165,6 +169,16 @@
 
 .card-text{
     color: #878787;
+}
+
+#up-arrow {
+    z-index: 1;
+    position: fixed;
+    right: 1.2%;
+    bottom: 2%;
+    overflow: hidden;
+    width: 5.8%;
+    height: 10%;
 }
 
 #about-us {
