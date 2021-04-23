@@ -7,7 +7,7 @@
   padding-top: 60px;
 }
 
-.team-cards-year3{
+.team-cards-responsive{
   display: grid;
   grid-template-columns: repeat(2, 350px);
   grid-gap: 40px;
@@ -106,10 +106,15 @@
 
 }
 .align-card{
-  margin-left: 50%;      
+  /* margin-left: 50%;      
   margin-right: 50%;
-  width: auto;
-
+  width: auto; */
+  display: grid;
+  grid-template-columns: repeat(2, 350px);
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 40px;
 }
 .member-social-media {
   position: absolute;
@@ -191,7 +196,7 @@
 
 @media screen and (max-width: 820px){
   .team-cards,
-  .team-cards-year3{
+  .team-cards-responsive{
     grid-template-columns: repeat(2, 300px);
   }
 
@@ -212,7 +217,7 @@
 
 @media screen and (max-width: 700px){
   .team-cards,
-  .team-cards-year3{
+  .team-cards-responsive{
     grid-template-columns: repeat(1, 360px);
   }
 
@@ -234,7 +239,7 @@
 
 @media screen and (max-width: 480px){
   .team-cards,
-  .team-cards-year3{
+  .team-cards-responsive{
     grid-template-columns: repeat(1, 300px);
   }
 
