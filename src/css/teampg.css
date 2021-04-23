@@ -41,17 +41,17 @@
 
 .members-cards .card:hover{
   border-radius: 8px;
-  box-shadow: 7px 12px 10px #863fc0;
+  box-shadow: 5px 12px 18px #863fc0;
 }
 
 .members-cards-year2 .card:hover{
   border-radius: 8px;
-  box-shadow: 7px 12px 10px #00FF00;
+  box-shadow: 5px 12px 18px #00FF00;
 }
 
 .members-cards-year3{
   border-radius: 8px;
-  box-shadow: 5px 10px 18px #fd7e14;
+  box-shadow: 5px 12px 18px #fd7e14;
 }
 
 .card-title{
@@ -79,7 +79,7 @@
   top: -70px;
   left: 75px;
   object-fit: cover;
-  box-shadow: 5px 10px 18px #fd7e14;
+  box-shadow: 6px 4px 18px #fd7e14;
 }
 
 .member-images-year2{
@@ -140,14 +140,8 @@
   padding: 10px 16px;
 }
 
-.member-social-media a{
-  color: white;
-}
-
-.member-social-media-cc a{
-  color: white;
-}
-
+.member-social-media a,
+.member-social-media-cc a,
 .member-social-media-oc a{
   color: white;
 }
