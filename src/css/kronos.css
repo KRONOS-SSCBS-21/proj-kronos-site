@@ -142,6 +142,19 @@
     padding: 0 20px;
 }
 
+.take-up-arrow {
+    z-index: 1;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 80px;
+}
+
+.arrow-up {
+    border-radius: 50%;
+    width: 80px;
+}
+
 /* Events-Cards Section */
 .kronos-events-cards{
     width: auto;
@@ -171,17 +184,29 @@
     color: #878787;
 }
 
-#up-arrow {
-    z-index: 1;
-    position: fixed;
-    right: 1.2%;
-    bottom: 2%;
-    overflow: hidden;
-    width: 70px;
-}
+
 
 #about-us {
     width: 100%;
+    margin-top: 5%;
+}
+
+.row {
+    padding: 3% 5% 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.abt-us-img {
+    max-height: 600px;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 7%;
+}
+
+.abt-us {
+    
+    padding-right: 2%;
 }
 
 #events {
@@ -195,24 +220,6 @@
 
 .events-con {
     padding-top: 5%;
-}
-
-.abt-us-img {
-    height: 600px;
-    width: 500px;
-    border-radius: 25px 60px 25px 60px;
-    padding-left: 2%;
-}
-
-.abt-us {
-    margin-top: 7%;
-    padding-right: 2%;
-}
-
-.row {
-    padding: 5% 0%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .italic-blue {
