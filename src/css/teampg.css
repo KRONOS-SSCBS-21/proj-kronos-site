@@ -39,17 +39,17 @@
   background-color: #FFF;
 }
 
-.members-cards .card:hover{
+.members-cards .card{
   border-radius: 8px;
   box-shadow: 5px 12px 18px #863fc0;
 }
 
-.members-cards-year2 .card:hover{
+.members-cards-year2 .card{
   border-radius: 8px;
   box-shadow: 5px 12px 18px #00FF00;
 }
 
-.members-cards-year3{
+.members-cards-year3 .card{
   border-radius: 8px;
   box-shadow: 5px 12px 18px #fd7e14;
 }
