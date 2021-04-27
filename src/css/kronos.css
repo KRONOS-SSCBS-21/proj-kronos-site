@@ -509,10 +509,15 @@ footer.page-footer,
     position: fixed;
     right: 20px;
     bottom: 20px;
-    width: 80px;
+    width: 65px;
 }
 
 .arrow-up {
     border-radius: 50%;
-    width: 80px;
+    width: 70px;
 }
+
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(57, 193, 218);
+  }

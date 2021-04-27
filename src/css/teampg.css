@@ -168,12 +168,12 @@
   padding-top: 100px;
 }
 
-.page-footer,
-footer.page-footer
+/* footer.page-footer,
+.page-footer
 {
   margin-top: 80px;
   background-image: linear-gradient(to bottom,#fdfeff,#d3dff1,#a6c1e9);
-}
+} */
 
 
 @media screen and (max-width: 1180px){
