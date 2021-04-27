@@ -304,10 +304,9 @@ button.close {
 }
 
 /* ---- Footer Section ----*/
-
+footer.page-footer,
 .page-footer{
-    /* background-color:#56585c; */
-    background-color: #f9f9fa;
+    background-image: linear-gradient(to bottom,#fdfeff,#d3dff1,#a6c1e9);
     color: black !important;
 }
 
@@ -329,11 +328,6 @@ button.close {
     text-decoration: unset;
     padding: 0 30px;
 } 
-
-/* .back{
-    background-image: linear-gradient(to right, rgba(44, 150, 221, 0.904), rgba(26, 38, 218, 0.884));
-    background: linear-gradient(90deg,rgba(24, 150, 204, 0.863) 30%, rgba(20,103,199,1) 50%,  rgba(13, 5, 124, 0.897) 100%);
-} */
 
 .bg-primary .container{
     background-color:rgba(37, 37, 37, 0.671);

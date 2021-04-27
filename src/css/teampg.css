@@ -54,6 +54,16 @@
   box-shadow: 5px 12px 18px #fd7e14;
 }
 
+.members-cards .card:hover{
+  box-shadow: 5px 12px 18px #863fc0c5;
+}
+.members-cards-year2 .card:hover{
+  box-shadow: 5px 12px 18px #00ff00ab;
+}
+.members-cards-year3 .card:hover{
+  box-shadow: 5px 12px 18px #fd7d14d7;
+}
+
 .card-title{
   font-size: 100%;
   text-align: center;
@@ -158,9 +168,13 @@
   padding-top: 100px;
 }
 
-.page-footer{
+.page-footer,
+footer.page-footer
+{
   margin-top: 80px;
+  background-image: linear-gradient(to bottom,#fdfeff,#d3dff1,#a6c1e9);
 }
+
 
 @media screen and (max-width: 1180px){
   .team-cards{
