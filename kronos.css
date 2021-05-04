@@ -1,0 +1,119 @@
+
+
+
+.jumbotron {
+    position: relative;
+    overflow: hidden;
+    /* background-color:black; */
+  }
+  .videoBG {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width:100%;
+    object-fit: fill;
+    height:75rem;
+     /* opacity: 0.8; */
+  }
+  .jumbotron .container {
+    z-index: 1;
+    position: relative;
+    height:90vh;
+  }
+ @media (min-aspect-ratio:16/9){
+    .videoBG  {
+        width:100%;
+        height:100%;
+    }
+    .aboutus ,.section{
+        width:100%;
+        height:100%;
+    }
+}
+    @media(max-aspect-ratio:16/9){
+      .videoBG{
+        width: auto;
+        height:100%;
+      }
+      .aboutus ,.section{
+        width: auto;
+        height:100%;
+      }
+    }
+    .container{
+        width:45%;
+        padding:0px 50px;
+        margin:14rem 0px;
+    }
+    .title{
+        width:82%;
+    }
+    .lead p{
+          width:326px; /*doubt */
+         margin:0px 0px 0px;
+        
+    }
+     .aboutus{ 
+         /* margin-top:15px; */
+         padding:20px;
+         background: rgb(29, 28, 28);
+         /* border:2px solid green; */
+         /* background: linear-gradient(#18191a, #e9dce2), url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701723743.jpg); */
+          background-blend-mode: screen;  
+          object-fit: cover;
+          height:80vh;  /*adjust */
+          /* margin-bottom:35px; */
+    } 
+    .about-1{
+         /* display: flex; */
+         padding-top:45px;
+         /* border:2px solid red; */
+         margin-top:35px;
+    }
+    
+    .section{
+        display: flex;
+        border:2px solid yellow;
+        display:block;
+        margin:auto;
+        width:60%;
+        border-radius:30px;
+        box-shadow: 0 15px 50px red;
+        padding:30px;
+        background:white;
+    }
+   .ig1{
+       display:block;
+        margin:auto;
+       width:40%;
+       border-radius:30px;
+       border:3px solid rgb(27, 24, 24);
+       margin-bottom:15px ;
+   }
+   .heading{
+       color:white;
+       padding:12px 150px;
+       border:2px solid white;
+    display:block;
+    margin:auto;
+   width:30%;
+   font-size:4.2rem;
+   border-radius:30px;
+   box-shadow: 0 15px 50px rgb(0, 204, 255);
+
+   }
+   .heading1{
+       margin-top:20px;
+    color:white;
+    padding:12px 150px;
+    border:2px solid white;
+ display:block;
+ margin:auto;
+width:30%;
+font-size:4.2rem;
+border-radius:30px;
+box-shadow: 0 15px 50px rgb(0, 204, 255);
+}
+.span1{
+    background: #000;
+}
