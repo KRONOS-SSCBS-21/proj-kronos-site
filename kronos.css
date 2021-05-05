@@ -56,10 +56,10 @@
      .aboutus{ 
          /* margin-top:15px; */
          padding:20px;
-         background: rgb(29, 28, 28);
+         /* background: rgb(29, 28, 28); */
          /* border:2px solid green; */
          /* background: linear-gradient(#18191a, #e9dce2), url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701723743.jpg); */
-          background-blend-mode: screen;  
+          /* background-blend-mode: screen;   */
           object-fit: cover;
           height:80vh;  /*adjust */
           /* margin-bottom:35px; */
@@ -91,7 +91,7 @@
        margin-bottom:15px ;
    }
    .heading{
-       color:white;
+       /* color:white; */
        padding:12px 150px;
        border:2px solid white;
     display:block;
@@ -104,7 +104,7 @@
    }
    .heading1{
        margin-top:20px;
-    color:white;
+    /* color:white; */
     padding:12px 150px;
     border:2px solid white;
  display:block;
