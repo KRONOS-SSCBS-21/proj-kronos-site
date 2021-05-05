@@ -37,7 +37,7 @@
 .members-cards-year3 .card{
   border-radius: 5px;
   background-color: #FFF;
-  min-height: 220px;
+  /* min-height: 220px; */
 }
 
 .members-cards .card{
