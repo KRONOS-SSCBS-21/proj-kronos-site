@@ -2,7 +2,13 @@
 
 .kronos-top-block-container{
     min-height: 600px;
+    /* background-color:rgb(18, 18, 19); */
 }
+
+/* .navbar{
+    background-color:transparent;
+
+} */
 
 .kronos-logo{
     max-width: 200px;
@@ -83,7 +89,7 @@
 .kronos-block-container{
     padding-top: 60px;
     padding-bottom: 60px;
-    color: white;
+    color: black;
 }
 
 .kronos-block-inner-container{

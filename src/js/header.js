@@ -1,4 +1,6 @@
-window.addEventListener("DOMContentLoaded", () => {
+window.addEventListener
+(
+    "DOMContentLoaded", () => {
 
     /**
      * Create sticky header that hides on scoll down and show on scroll up
@@ -23,3 +25,17 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     }
 })
+$(document).ready(function(){
+    $(window).scroll(function(){
+        var scroll = $(window).scrollTop();
+        if (scroll > 610) {
+          $(".navbar").css("background" , "#1461d4");
+          $(".navbar").css("transition" , "0.7s");
+        }
+  
+        else{
+            $(".navbar").css("background" , "rgba(0, 0, 0, 0)");
+            $(".navbar").css("transition" , "0.8s");
+        }
+    })
+  })
