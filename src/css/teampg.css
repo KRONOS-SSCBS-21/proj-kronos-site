@@ -1,10 +1,23 @@
 .heading{
   text-align:center;
+  font-size:4.5rem;
+  
+font-family: 'Lato', sans-serif;
+font-family: 'Lobster', cursive;
+
+
 }
 
 .team-heading{
   text-align:center;
   padding-top: 60px;
+  font-size:3rem;
+  /* font-family: 'Baloo 2', cursive; */
+font-family: 'Itim', cursive;
+font-family: 'Lato';
+font-family: 'Lobster', cursive;
+/* font-family: 'Pacifico', cursive; */
+ 
 }
 
 .team-cards-responsive{
@@ -66,12 +79,13 @@
 }
 
 .card-title{
-  font-size: 100%;
+  font-size: 1.75rem;
   text-align: center;
   margin-top: 3%;
   margin-left: -1rem;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+  font-family: 'Itim', cursive;
+font-family: 'Lobster', cursive;
+ }
 
 .kronos-teampage .navbar{
   background: #fafafa;
