@@ -60,22 +60,22 @@ font-family: 'Lobster', cursive;
 
 .members-cards-year2 .card{
   border-radius: 8px;
-  box-shadow: 5px 12px 18px #00FF00;
+  box-shadow: 5px 12px 18px #d3e71b;
 }
 
 .members-cards-year3 .card{
   border-radius: 8px;
-  box-shadow: 5px 12px 18px #fd7e14;
+  box-shadow: 5px 12px 18px #ec0c0c;
 }
 
 .members-cards .card:hover{
   box-shadow: 5px 12px 18px #863fc0c5;
 }
 .members-cards-year2 .card:hover{
-  box-shadow: 5px 12px 18px #00ff00ab;
+  box-shadow: 5px 12px 18px #ddd014ab;
 }
 .members-cards-year3 .card:hover{
-  box-shadow: 5px 12px 18px #fd7d14d7;
+  box-shadow: 5px 12px 18px #fd1414d7;
 }
 
 .card-title{
@@ -107,7 +107,7 @@ font-family: 'Lobster', cursive;
   top: -70px;
   left: 75px;
   object-fit: cover;
-  box-shadow: 6px 4px 18px #fd7e14;
+  box-shadow: 6px 4px 18px #e70f0f;
 }
 
 .member-images-year2{
@@ -118,7 +118,7 @@ font-family: 'Lobster', cursive;
   top: -70px;
   left: 75px;
   object-fit: cover;
-  box-shadow: 6px 4px 18px #00FF00;
+  box-shadow: 6px 4px 18px #cfe416;
 
 }
 
@@ -149,7 +149,7 @@ font-family: 'Lobster', cursive;
   right: 0;
   display: grid;
   grid-gap: 5px;
-  background: #f7941e;
+  background: #f3220f;
   border-radius: 0 0 0 5px;
   padding: 10px 16px;
 }
@@ -158,7 +158,7 @@ font-family: 'Lobster', cursive;
   right: 0;
   display: grid;
   grid-gap: 5px;
-  background: #00FF00;
+  background: #b3e00d;
   border-radius: 0 0 0 5px;
   padding: 10px 16px;
 }
