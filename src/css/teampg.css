@@ -1,8 +1,9 @@
 .heading{
   text-align:center;
   font-size:4.5rem;
-  font-weight: 400;
-font-family: 'Arvo', serif;
+  font-weight: 600;
+/* font-family: 'Arvo', serif; */
+font-family: 'Karla', sans-serif;
 
 
 
@@ -12,8 +13,10 @@ font-family: 'Arvo', serif;
   text-align:center;
   padding-top: 60px;
   font-size:3rem;
-  font-weight: 500;
-font-family: 'Arvo', serif;
+  font-weight: 700;
+/* font-family: 'Arvo', serif; */
+/* font-family: 'Karla', sans-serif; */
+font-family: 'Karla', sans-serif ,italic;
 }
 
 .team-cards-responsive{
@@ -79,7 +82,8 @@ font-family: 'Arvo', serif;
   text-align: center;
   margin-top: 3%;
   margin-left: -1rem;
-font-family: 'Dosis', sans-serif;
+/* font-family: 'Dosis', sans-serif; */
+font-family: 'Karla', sans-serif;
  }
 
 .kronos-teampage .navbar{
