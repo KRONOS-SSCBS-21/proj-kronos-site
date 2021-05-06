@@ -16,6 +16,15 @@
   padding-top: 40px;
 }
 
+.team-cards-responsive-oc{
+  display: grid;
+  grid-template-columns: repeat(1, 350px);
+  grid-gap: 40px;
+  justify-content: center;
+  padding: 10px;
+  padding-top: 40px;
+}
+
 .team-cards{
   display: grid;
   grid-template-columns: repeat(3, 350px);
