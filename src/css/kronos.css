@@ -5,11 +5,6 @@
     /* background-color:rgb(18, 18, 19); */
 }
 
-/* .navbar{
-    background-color:transparent;
-
-} */
-
 .kronos-logo{
     max-width: 200px;
     max-height: 60px;
@@ -79,6 +74,11 @@
 .nav-link, 
 .navbar-brand{
     color: white !important;
+}
+
+.nav-item{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
 }
 
 

@@ -28,14 +28,16 @@ window.addEventListener
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
-        if (scroll > 610) {
+        if (scroll > 400) {
           $(".navbar").css("background" , "#1461d4");
           $(".navbar").css("transition" , "0.7s");
+          $(".navbar").addClass("shadow p-3 mb-5 rounded");
         }
   
         else{
             $(".navbar").css("background" , "rgba(0, 0, 0, 0)");
-            $(".navbar").css("transition" , "0.8s");
+            $(".navbar").css("transition" , "0.7s");
+            $(".navbar").removeClass("shadow p-3 mb-5 rounded");
         }
     })
   })
