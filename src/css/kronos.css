@@ -2,6 +2,8 @@
 
 .kronos-top-block-container{
     min-height: 600px;
+    /* background-color:rgb(18, 18, 19); */
+    background-color: #203647;
 }
 
 .kronos-logo{
@@ -75,6 +77,10 @@
     color: white !important;
 }
 
+.nav-item{
+    margin-right: 1.3em;
+}
+
 
 /*BLOCK CONTAINER CSS*/
 
@@ -83,7 +89,7 @@
 .kronos-block-container{
     padding-top: 60px;
     padding-bottom: 60px;
-    color: white;
+    color: black;
 }
 
 .kronos-block-inner-container{
@@ -114,6 +120,7 @@
 .kronos-desc-block{
     padding-left: 40px;
     font-size: 1.25rem;
+    color: #fff;
 }
 
 /* Events-Cards Section */
@@ -124,6 +131,9 @@
     padding-top: 3.5%;
     text-align: center;
     font-size: 3.5rem;
+    color: #A0CED9;
+    font-weight: 800;
+    font-style: normal;
 }
 .card:hover{
     border-radius: 5px;
@@ -151,7 +161,7 @@
 }
 
 #events {
-    background: #014FC6;
+    background: #12232E;
     margin-top: 0;
     width: 100%;
     align-content: center;
@@ -188,7 +198,7 @@
 }
 
 .abt-us-heading {
-    color: #014FC6;
+    color: #A0CED9;
     font-size: 3rem;
     font-weight: 800;
     font-style: normal;  
@@ -197,14 +207,15 @@
 .a {
     font-size: 1.25 rem;
     text-align: justify;
+    color: #EEFBFB;
 }
 
 .event-heading {
     font-size: 3.5rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     margin-bottom: 4.75%;
-    color: antiquewhite;
+    color: #A0CED9;
     animation-name: headingup;
     animation-duration: 0.6s;
 }
@@ -257,8 +268,9 @@
 }
 
 .kronos-h1 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 3rem;
+    color: #fff;
 }
 
 .card-body {
@@ -306,12 +318,12 @@ button.close {
 /* ---- Footer Section ----*/
 footer.page-footer,
 .page-footer{
-    background-image: linear-gradient(to bottom,#fdfeff,#d3dff1,#a6c1e9);
-    color: black !important;
+    background-image: linear-gradient(to bottom,#203647,#007CC7,#12232E);
+    color: #EEFBFB; !important;
 }
 
 .page-footer a{
-    color: black !important;
+    color: #EEFBFB; !important;
     text-decoration: unset;
 } 
 
@@ -531,3 +543,16 @@ footer.page-footer,
         margin-bottom: 0 !important;
     }
 }
+.kronos-site {
+    background-color: #12232E;
+}
+
+#kronos-events-cards {
+    background-color: #203647;
+}
+
+
+
+
+
+
