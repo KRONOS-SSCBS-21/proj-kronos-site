@@ -2,6 +2,7 @@
 
 .kronos-top-block-container{
     min-height: 600px;
+    /* background-color:rgb(18, 18, 19); */
 }
 
 .kronos-logo{
@@ -75,6 +76,10 @@
     color: white !important;
 }
 
+.nav-item{
+    margin-right: 1.3em;
+}
+
 
 /*BLOCK CONTAINER CSS*/
 
@@ -83,7 +88,7 @@
 .kronos-block-container{
     padding-top: 60px;
     padding-bottom: 60px;
-    color: white;
+    color: black;
 }
 
 .kronos-block-inner-container{
@@ -114,6 +119,7 @@
 .kronos-desc-block{
     padding-left: 40px;
     font-size: 1.25rem;
+    color: #fff;
 }
 
 /* Events-Cards Section */
@@ -257,8 +263,9 @@
 }
 
 .kronos-h1 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 3rem;
+    color: #fff;
 }
 
 .card-body {
