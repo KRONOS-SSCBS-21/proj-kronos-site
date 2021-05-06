@@ -319,11 +319,11 @@ button.close {
 footer.page-footer,
 .page-footer{
     background-image: linear-gradient(to bottom,#203647,#007CC7,#12232E);
-    color: #EEFBFB; !important;
+    color: #EEFBFB !important;
 }
 
 .page-footer a{
-    color: #EEFBFB; !important;
+    color: #EEFBFB !important;
     text-decoration: unset;
 } 
 
