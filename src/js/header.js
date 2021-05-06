@@ -25,6 +25,8 @@ window.addEventListener
         });
     }
 })
+
+// Making Navbar solid on scroll and added shadow 
 $(document).ready(function(){
     $(window).scroll(function(){
         var scroll = $(window).scrollTop();
