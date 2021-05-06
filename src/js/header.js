@@ -32,11 +32,11 @@ $(document).ready(function () {
     if (scroll > 400) {
       $(".navbar").css("background", "#1461d4");
       $(".navbar").css("transition", "0.7s");
-      $(".navbar").addClass("shadow p-3 mb-5 rounded");
+      $(".navbar").addClass("shadow p-2 rounded");
     } else {
       $(".navbar").css("background", "rgba(0, 0, 0, 0)");
       $(".navbar").css("transition", "0.7s");
-      $(".navbar").removeClass("shadow p-3 mb-5 rounded");
+      $(".navbar").removeClass("shadow p-2 rounded");
     }
   });
 });
