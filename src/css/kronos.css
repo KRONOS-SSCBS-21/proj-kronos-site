@@ -119,6 +119,7 @@
 .kronos-desc-block{
     padding-left: 40px;
     font-size: 1.25rem;
+    color: #fff;
 }
 
 /* Events-Cards Section */
@@ -264,6 +265,7 @@
 .kronos-h1 {
     font-weight: 800;
     font-size: 3rem;
+    color: #fff;
 }
 
 .card-body {
