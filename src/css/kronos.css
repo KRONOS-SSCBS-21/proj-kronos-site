@@ -33,6 +33,7 @@
 .scrolled-up.navbar-light .navbar-nav .nav-link,
 .scrolled-up.navbar-light .navbar-nav .nav-link{
     color: black !important;
+    font-family: 'Karla', sans-serif;
 }
 
 .navbar-collapse.collapse.show,
@@ -120,6 +121,7 @@
     padding-left: 40px;
     font-size: 1.25rem;
     color: #fff;
+    font-family: 'Karla', sans-serif;
 }
 
 /* Events-Cards Section */
@@ -130,6 +132,7 @@
     padding-top: 3.5%;
     text-align: center;
     font-size: 3.5rem;
+    font-family: 'Karla', sans-serif;
 }
 .card:hover{
     border-radius: 5px;
@@ -198,11 +201,13 @@
     font-size: 3rem;
     font-weight: 800;
     font-style: normal;  
+    font-family: 'Karla', sans-serif;
 }
 
 .a {
     font-size: 1.25 rem;
     text-align: justify;
+    font-family: 'Karla', sans-serif;
 }
 
 .event-heading {
@@ -213,6 +218,7 @@
     color: antiquewhite;
     animation-name: headingup;
     animation-duration: 0.6s;
+    font-family: 'Karla', sans-serif;
 }
 
 .carousel-control-prev {
@@ -266,10 +272,12 @@
     font-weight: 700;
     font-size: 3rem;
     color: #fff;
+    font-family: 'Karla', sans-serif;
 }
 
 .card-body {
     padding: 1.4rem 1.4rem;
+    font-family: 'Karla', sans-serif;
 }
 
 .modal-open .modal{
@@ -304,6 +312,7 @@ button.close {
     -webkit-box-orient: vertical;
     display: -webkit-box;
     -webkit-line-clamp: 3;
+    font-family: 'Karla', sans-serif;
 }
 
 .modal .modal-dialog{
@@ -371,6 +380,7 @@ footer.page-footer,
 
 .page-footer .row {
     padding: 3% 5% 0%;
+    font-family: 'Karla', sans-serif;
 }
 
 .kronos-copyright-text{
