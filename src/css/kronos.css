@@ -32,6 +32,7 @@
 .scrolled-up.navbar-light .navbar-nav .nav-link,
 .scrolled-up.navbar-light .navbar-nav .nav-link{
     color: black !important;
+    font-family: 'Karla', sans-serif; 
 }
 
 .navbar-collapse.collapse.show,
@@ -191,7 +192,8 @@
     color: #014FC6;
     font-size: 3rem;
     font-weight: 800;
-    font-style: normal;  
+    font-style: normal; 
+    font-family: 'Karla', sans-serif; 
 }
 
 .a {
@@ -259,6 +261,7 @@
 .kronos-h1 {
     font-weight: 800;
     font-size: 3rem;
+    font-family: 'Karla', sans-serif;
 }
 
 .card-body {
