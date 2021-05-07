@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	// Animated Banner Section
 	VANTA.WAVES({
-		el: ".kronos-top-block-container",
+		el: "#",
 		mouseControls: true,
 		touchControls: true,
 		gyroControls: false,

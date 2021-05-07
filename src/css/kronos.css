@@ -1,3 +1,10 @@
+.animated{
+    max-width: 35%;
+    margin-top: 5%;
+    margin-right: 7%;
+    float:right;
+}
+
 /*NAVBAR CSS*/
 
 .kronos-top-block-container{
@@ -119,7 +126,6 @@
 .kronos-desc-block{
     padding-left: 40px;
     font-size: 1.25rem;
-    color: #fff;
 }
 
 /* Events-Cards Section */
@@ -265,7 +271,6 @@
 .kronos-h1 {
     font-weight: 700;
     font-size: 3rem;
-    color: #fff;
 }
 
 .card-body {
