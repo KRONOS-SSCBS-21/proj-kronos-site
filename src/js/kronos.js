@@ -2,7 +2,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	// Animated Banner Section
 	VANTA.WAVES({
-		el: "",
+        el:".kronos-top-block-container",
 		mouseControls: true,
 		touchControls: true,
 		gyroControls: false,
@@ -10,10 +10,11 @@ window.addEventListener("DOMContentLoaded", () => {
 		minWidth: 200.00,
 		scale: 1.00,
 		scaleMobile: 1.00,
-		color: 0x4fc6,
-		shininess: 32.00,
-		waveHeight: 12.00,
-		waveSpeed: 0.50
+		color: 0x90911,
+		shininess: 78.00,
+		waveHeight: 8.50,
+		waveSpeed: 0.90,
+        zoom: 1.02
 	});
 
 	/**
