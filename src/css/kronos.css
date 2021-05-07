@@ -319,8 +319,10 @@ button.close {
 footer.page-footer,
 .page-footer{
     background-image: linear-gradient(to bottom,#203647,#007CC7,#12232E);
+    /*background-color: #1b1b1f; */
     color: #EEFBFB; !important;
 }
+
 
 .page-footer a{
     color: #EEFBFB; !important;
@@ -545,6 +547,7 @@ footer.page-footer,
 }
 .kronos-site {
     background-color: #12232E;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #kronos-events-cards {
@@ -556,3 +559,11 @@ footer.page-footer,
 
 
 
+
+
+
+
+
+.kronos-teampage {
+    font-family: 'Montserrat', sans-serif;
+}
