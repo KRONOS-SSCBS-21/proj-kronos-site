@@ -29,7 +29,7 @@ window.addEventListener("DOMContentLoaded", () => {
 $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-    if (scroll > 400) {
+    if (scroll > 200) {
       $(".navbar").css("background", "#1461d4");
       $(".navbar").css("transition", "0.7s");
       $(".navbar").addClass("shadow p-2 rounded");
