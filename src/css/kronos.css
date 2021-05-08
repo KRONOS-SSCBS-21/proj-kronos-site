@@ -5,11 +5,17 @@
     float:right;
 }
 
+/* .bg-png{
+    z-index: -1;
+    max-width: 100%;
+} */
+
 /*NAVBAR CSS*/
 
 .kronos-top-block-container{
-    min-height: 600px;
-    /* background-color:rgb(18, 18, 19); */
+    min-height: 850px;
+    background-image: url("./4112158.png");
+    background-size: cover;
 }
 
 .kronos-logo{
