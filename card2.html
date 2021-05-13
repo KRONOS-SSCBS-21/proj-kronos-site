@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .scene {
+            width: 1000px;
+            display: flex;
+            justify-content: space-between;
+            perspective: 800px;
+        }
+
+        .card {
+            position: relative;
+            width: 240px;
+            height: 300px;
+            cursor: pointer;
+            transition: 1s ease-in-out;
+            transform-style: preserve-3d;
+            border: 2px solid black;
+        }
+
+        .card:hover {
+            transform: rotateY(0.5turn);
+        }
+
+        .card__face {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            transition: 1s ease-in-out;
+
+            /* background: #000; */
+            -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, rgba(0, 0, 0, 0.4));
+        }
+
+        img {
+            width: 240px;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .card__face--back {
+            transform: rotateY(0.5turn);
+        }
+
+        .card__face--back {
+            background: white;
+            padding :12px;
+            background: #000;
+        }
+
+        p {
+            color: white;
+        }
+
+        .button {
+            display: block;
+            margin: auto;
+            width: 45%;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        h1 {
+            display: block;
+            margin: auto;
+            margin-top: 12px;
+            width: 55%;
+        }
+
+        .button:hover {
+            background: black;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="scene">
+        <div class="card">
+            <div class="card__face card__face--front">
+                <img
+                    src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+            </div>
+            <div class="card__face card__face--back">
+                <h1>card title</h1>
+                <!-- <img src="https://i.loli.net/2019/11/16/cqyJiYlRwnTeHmj.jpg" /> -->
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error explicabo voluptatibus fuga, tempore
+                    ratione corporis eum debitis facilis, quae, doloremque odit ad perspiciatis quo suscipit.
+                    Voluptatibus sunt officiis adipisci vitae?</p>
+                <button class="button" type="button">read more..</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__face card__face--front">
+                <img
+                    src="https://thumbs.dreamstime.com/b/internet-information-technology-businessman-hand-showing-concept-75784736.jpg" />
+            </div>
+            <div class="card__face card__face--back">
+                <!-- <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg" /> -->
+                <h1>card title</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error explicabo voluptatibus fuga, tempore
+                    ratione corporis eum debitis facilis, quae, doloremque odit ad perspiciatis quo suscipit.
+                    Voluptatibus sunt officiis adipisci vitae?</p>
+                <button class="button" type="button">read more..</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card__face card__face--front">
+                <img
+                    src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+            </div>
+            <div class="card__face card__face--back">
+                <!-- <img src="https://i.loli.net/2019/11/03/RtVq2wxQYySDb8L.jpg" /> -->
+                <h1>card title</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error explicabo voluptatibus fuga, tempore
+                    ratione corporis eum debitis facilis, quae, doloremque odit ad perspiciatis quo suscipit.
+                    Voluptatibus sunt officiis adipisci vitae?</p>
+                <button class="button" type="button">read more..</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
