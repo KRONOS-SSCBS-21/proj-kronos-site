@@ -18,8 +18,10 @@
 }
 
 .kronos-logo{
-    max-width: 200px;
-    max-height: 60px;
+    height: auto;
+    width: auto;
+    max-width: 250px;
+    max-height: 80px;
 }
 
 .navbar-toggler-icon{
@@ -360,12 +362,35 @@ footer.page-footer,
     opacity: 1 !important;
 }
 
-.back i{
-    font-size:25px;
+.social-media-button i{
+    font-size:20px;
 }
-.back i:hover{
-    font-size: 31px;
-    
+
+.fa-twitter:hover{
+    font-size: 26px;    
+    color:#00ACEE;
+}
+
+.fa-linkedin-in:hover{
+    font-size: 26px;    
+    color:#0077b5;
+}
+
+.fa-youtube:hover{
+    font-size: 26px;    
+    color:#FF0000;
+}
+
+
+.fa-facebook-f:hover{
+    font-size: 26px;    
+    color:#1240a3;
+}
+
+
+.fa-instagram:hover{
+    font-size: 26px;    
+    color:#c23aab;
 }
 
 /* .kronos-footer-link-column{
