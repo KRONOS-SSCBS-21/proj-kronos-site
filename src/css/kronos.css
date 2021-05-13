@@ -1,3 +1,7 @@
+.kronos-site{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .animated{
     max-width: 35%;
     margin-top: 5%;
@@ -110,23 +114,17 @@
     right: 0;
 }
 
-.kronos-top-left-border {
-    border-left: solid 1px #f7941e;
-    position: absolute;
-    top: 143px;
-    border-top: solid 1px #f7941e;
-    width: 120px;
-    height: 110px;
-}
-
 .kronos-heading-block{
     padding-left: 40px;
     padding-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
 }
 
 .kronos-desc-block{
     padding-left: 40px;
     font-size: 1.25rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Events-Cards Section */
@@ -137,6 +135,9 @@
     padding-top: 3.5%;
     text-align: center;
     font-size: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #014FC6;
+    font-weight: 600;
 }
 .card:hover{
     border-radius: 5px;
@@ -202,9 +203,10 @@
 
 .abt-us-heading {
     color: #014FC6;
-    font-size: 3rem;
-    font-weight: 800;
-    font-style: normal;  
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-style: normal; 
+    font-family: 'Montserrat',sans-serif; 
 }
 
 .a {
@@ -215,7 +217,8 @@
 .event-heading {
     font-size: 3.5rem;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 4.75%;
     color: antiquewhite;
     animation-name: headingup;
@@ -263,6 +266,7 @@
     font-size: 3.5rem;
     font-style: normal;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 4.75%;
     color: #3b1d48;
     animation-name: headingup;
