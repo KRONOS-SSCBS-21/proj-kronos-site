@@ -144,6 +144,7 @@
 .card:hover{
     border-radius: 5px;
     box-shadow: 5px 10px 8px #888888;
+    transform: scale(1.08,1.08);
 }
 .cards{
     padding: 4% 7%;
