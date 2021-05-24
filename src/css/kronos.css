@@ -514,6 +514,10 @@ footer.page-footer,
     .page-footer .row {
         padding: 7% 5% 3%;
     }
+
+    .animated {
+        margin-top: 130px;
+    }
 }
 
 @media screen and (max-width: 700px){
@@ -561,12 +565,12 @@ footer.page-footer,
         display: none;
     }
 
-    .kronos-block-container {
-        padding-top: 60px !important;
+    .kronos-top-block-container {
+        min-height: 750px;
     }
 
-    .kronos-top-block-container {
-        min-height: 650px;
+    .abt-us-heading{
+        font-size: 2rem;
     }
 }
 
