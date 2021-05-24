@@ -95,9 +95,13 @@
 }
 
 .navbar .container-fluid{
-    padding: 0 120px;
+    padding: 0 90px;
     color: white;
     
+}
+
+.card{
+    cursor: pointer;
 }
 
 .nav-link, 
@@ -516,6 +520,7 @@ footer.page-footer,
     .navbar .container-fluid,
     .kronos-block-inner-container{
         padding: 0 20px;
+        width: 100%;
     }
 
     .kronos-heading-block{
@@ -550,6 +555,18 @@ footer.page-footer,
     .arrow-up {
         border-radius: 50%;
         width: 50px;
+    }
+
+    .animated{
+        display: none;
+    }
+
+    .kronos-block-container {
+        padding-top: 60px !important;
+    }
+
+    .kronos-top-block-container {
+        min-height: 650px;
     }
 }
 
