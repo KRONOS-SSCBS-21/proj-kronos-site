@@ -698,14 +698,15 @@
     <div class="take-up-arrow"><a href="#top-main"><img class="arrow-up" src="assets/images/up-arrow.png" alt="up-arrow"></a></div>
     
     <section id="about-us">
-        <div class="container-fluid" data-aos="fade-left">
+        <!-- <div class="container-fluid""> -->
+        <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-6"  data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">>
                      <img class="abt-us-img" src="assets/images/webDvector.svg" alt="vector">
                 </div>
                 <div class="col-lg-6 abt-us">
                     <marquee behavior="slide" direction="left" scrollamount="50">
-                    <h2 class="abt-us-heading">About Kronos</h2>
+                    <h2 class="abt-us-heading" data-aos="fade-left">About Kronos</h2>
                     </marquee>
                     <p class="a">Lorem ipsum dolor sit amet, consectetur adipiscing elit, <span class="italic-blue">sed do eiusmod</span> tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                     <p class="a">Generate Lorem Ipsum placeholder <span class="italic-blue">text. Select the</span> number of characters, words, sentences or paragraphs, and hit generate!</p>
@@ -719,7 +720,7 @@
     <section id="kronos-events-cards" class="kronos-events-cards">
       <div class="kronos-event-heading">Events</div>
         <div class="row row-cols-1 row-cols-md-3 cards">
-          <div class="col mb-4 col-card" data-aos="fade-right">
+          <div class="col mb-4 col-card" data-aos="zoom-in-right">
             <div class="card h-100">
               <img src="assets/images/1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -729,7 +730,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4 col-card" data-aos="fade-in">
+          <div class="col mb-4 col-card" data-aos="zoom-in">
             <div class="card h-100">
               <img src="assets/images/1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -739,7 +740,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4 col-card" data-aos="fade-left">
+          <div class="col mb-4 col-card" data-aos="zoom-in-left">
             <div class="card h-100">
               <img src="assets/images/1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -749,7 +750,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4 col-card" data-aos="fade-right">
+          <div class="col mb-4 col-card" data-aos="zoom-in-right">
             <div class="card h-100">
               <img src="assets/images/1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -759,7 +760,7 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4 col-card" data-aos="fade-in">
+          <div class="col mb-4 col-card" data-aos="zoom-in">
             <div class="card h-100">
               <img src="assets/images/1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -769,12 +770,12 @@
               </div>
             </div>
           </div>
-          <div class="col mb-4 col-card" data-aos="fade-left">
+          <div class="col mb-4 col-card" data-aos="zoom-in-left">
             <div class="card h-100">
               <img src="assets/images/1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text kronos-clamp-desc">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text kronos-clamp-desc">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
                 <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="kronos-modal">Read more..</button>
               </div>
             </div>
@@ -900,8 +901,8 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
     AOS.init({
-      offset: 300,
-      duration: 1500
+      offset: 200,
+      duration: 1000,
     });
    </script>
 </body>
