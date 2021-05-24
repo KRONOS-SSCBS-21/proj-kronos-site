@@ -499,6 +499,14 @@ footer.page-footer,
         top: 74px;
         right: 100px;
     }
+    .animated{
+        margin-top:10%;
+        margin-right: 10%;
+        max-width: 54%;
+    }
+    .kronos-desc-block{
+        width:22rem;
+    }
 }
 
 @media screen and (max-width: 940px){
@@ -562,7 +570,9 @@ footer.page-footer,
     }
 
     .animated{
-        display: none;
+        margin-top:20%;
+        margin-right:14%;
+        max-width:65%;
     }
 
     .kronos-top-block-container {
@@ -619,4 +629,14 @@ footer.page-footer,
         margin-bottom: 0 !important;
     }
 }
-
+@media screen and (max-width: 620px){
+    .animated{
+        display: none;
+    }
+    .kronos-top-block-container{
+        background-image: url('image.jpg') ;
+        /* object-fit: cover; */
+        /* background-size: fill; */
+        /* background: #000; */
+    }
+}
