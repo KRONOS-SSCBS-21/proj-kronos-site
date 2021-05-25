@@ -95,9 +95,13 @@
 }
 
 .navbar .container-fluid{
-    padding: 0 120px;
+    padding: 0 90px;
     color: white;
     
+}
+
+.card{
+    cursor: pointer;
 }
 
 .nav-link, 
@@ -495,6 +499,14 @@ footer.page-footer,
         top: 74px;
         right: 100px;
     }
+    .animated{
+        margin-top:10%;
+        margin-right: 10%;
+        max-width: 54%;
+    }
+    .kronos-desc-block{
+        width:22rem;
+    }
 }
 
 @media screen and (max-width: 940px){
@@ -510,12 +522,17 @@ footer.page-footer,
     .page-footer .row {
         padding: 7% 5% 3%;
     }
+
+    .animated {
+        margin-top: 130px;
+    }
 }
 
 @media screen and (max-width: 700px){
     .navbar .container-fluid,
     .kronos-block-inner-container{
         padding: 0 20px;
+        width: 100%;
     }
 
     .kronos-heading-block{
@@ -550,6 +567,20 @@ footer.page-footer,
     .arrow-up {
         border-radius: 50%;
         width: 50px;
+    }
+
+    .animated{
+        margin-top:20%;
+        margin-right:14%;
+        max-width:65%;
+    }
+
+    .kronos-top-block-container {
+        min-height: 750px;
+    }
+
+    .abt-us-heading{
+        font-size: 2rem;
     }
 }
 
@@ -606,5 +637,16 @@ footer.page-footer,
 @media screen and (min-width: 310px) and (max-width:459px){
     .kronos-logo{
         max-width:180px;
+    }
+}
+@media screen and (max-width: 620px){
+    .animated{
+        display: none;
+    }
+    .kronos-top-block-container{
+        background-image: url('image.jpg') ;
+        /* object-fit: cover; */
+        /* background-size: fill; */
+        /* background: #000; */
     }
 }
