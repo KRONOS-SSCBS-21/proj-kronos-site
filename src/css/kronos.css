@@ -554,6 +554,10 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 460px){
+    
+    .kronos-logo{
+        max-width: 230px;
+    }
     .kronos-position-absolute{
         width: 140px;
         height: 100px;
@@ -599,3 +603,8 @@ footer.page-footer,
     }
 }
 
+@media screen and (min-width: 310px) and (max-width:459px){
+    .kronos-logo{
+        max-width:180px;
+    }
+}
