@@ -333,7 +333,7 @@
         grid-template-columns: repeat(1, 300px);
     }
     .team-cards-oc {
-        grid-template-columns: repeat(2, 210px);
+        grid-template-columns: repeat(1, 210px);
     }
     .member-images {
         border-radius: 100px;
