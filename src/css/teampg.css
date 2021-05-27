@@ -71,37 +71,31 @@
 .members-cards .card {
     border-radius: 20px;
     box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5);
-    /* box-shadow: 5px 12px 18px #863fc0; */
 }
 
 .members-cards-year2 .card {
     border-radius: 20px;
     box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5);
-    /*box-shadow: 5px 12px 18px #B23850; */
 }
 
 .members-cards-year3 .card {
     border-radius: 20px;
     box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5);
-    /* box-shadow: 5px 12px 18px #fd7e14;*/
 }
 
 .members-cards .card:hover {
     border-radius: 20px;
     box-shadow: 0 7px 30px 2px rgb(172 179 191);
-    /* box-shadow: 5px 12px 18px #863fc0c5; */
 }
 
 .members-cards-year2 .card:hover {
     border-radius: 20px;
     box-shadow: 0 7px 30px 2px rgb(172 179 191);
-    /* box-shadow: 5px 12px 18px #e05a75; */
 }
 
 .members-cards-year3 .card:hover {
     border-radius: 20px;
     box-shadow: 0 7px 30px 2px rgb(172 179 191);
-    /* box-shadow: 5px 12px 18px #fd7d14d7; */
 }
 
 .card-title {
@@ -120,64 +114,51 @@
     padding-top: 140px;
 }
 
-
-/* .kronos-teampage .navbar .container-fluid {
-  padding: 0 90px;
-} */
-
 .member-images-year3 {
+    border: 7.5px solid transparent;
     border-radius: 100px;
+    top: -70px;
+    left: 100px;
     width: 150px;
     height: 150px;
     position: absolute;
-    top: -70px;
-    left: 100px;
     object-fit: cover;
-    border-radius: 100px;
-    border: 7.5px solid transparent;
 
-
-    /* background: linear-gradient(133deg, rgb(235 14 184), rgb(51 210 246),rgb(90 72 214)) border-box; */
     background: linear-gradient(63deg,rgb(111 31 200),rgb(238 84 250),rgb(51 210 246),rgb(53 31 217)) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
 
 .member-images-year2 {
+    /* border: 4px; */
+    border: 6.5px solid transparent;
     border-radius: 100px;
+    top: -70px;
+    left: 100px;
     width: 150px;
     height: 150px;
     position: absolute;
-    top: -70px;
-    left: 100px;
     object-fit: cover;
-    border: 4px;
-    border-radius: 100px;
-    border: 6.5px solid transparent;
     background: linear-gradient(45deg, rgb(50, 21, 216), rgb(12, 230, 84)) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
 
 .member-images {
+    border: 6.5px solid transparent;
+    border-radius: 100px;
     width: 150px;
     height: 150px;
     position: absolute;
     left: 50px;
     top: -70px;
     object-fit: cover;
-    border-radius: 100px;
-    border: 6.5px solid transparent;
-    /* background: linear-gradient(45deg, rgb(235, 12, 124), rgb(228, 243, 16)) border-box; */
     background: linear-gradient(30deg,#3a09c8, #e15ffa 60%, #ff6cb3, #f705db) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
 
 .align-card {
-    /* margin-left: 50%;      
-  margin-right: 50%;
-  width: auto; */
     display: grid;
     grid-template-columns: repeat(2, 350px);
     grid-gap: 40px;
@@ -355,7 +336,6 @@
         display: grid;
         grid-template-columns: repeat(1, 300px);
         margin-left:170px;
-        /* align-items: center; */
 
     }
 }
