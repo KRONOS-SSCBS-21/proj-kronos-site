@@ -134,8 +134,11 @@
     left: 100px;
     object-fit: cover;
     border-radius: 100px;
-    border: 6.5px solid transparent;
-    background: linear-gradient(45deg, rgb(100, 35, 106), rgb(226, 53, 206),rgb(251, 129, 255)) border-box;
+    border: 7.5px solid transparent;
+
+
+    /* background: linear-gradient(133deg, rgb(235 14 184), rgb(51 210 246),rgb(90 72 214)) border-box; */
+    background: linear-gradient(63deg,rgb(111 31 200),rgb(238 84 250),rgb(51 210 246),rgb(53 31 217)) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
@@ -165,7 +168,8 @@
     object-fit: cover;
     border-radius: 100px;
     border: 6.5px solid transparent;
-    background: linear-gradient(45deg, rgb(235, 12, 124), rgb(228, 243, 16)) border-box;
+    /* background: linear-gradient(45deg, rgb(235, 12, 124), rgb(228, 243, 16)) border-box; */
+    background: linear-gradient(30deg,#3a09c8, #e15ffa 60%, #ff6cb3, #f705db) border-box;
     -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
@@ -215,13 +219,23 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+*::-webkit-scrollbar,
+*::-webkit-scrollbar-thumb {
+  width: 13px;
+  color:rgb(100, 100, 100);    
+  border-radius: 20px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
 
-/* footer.page-footer,
-.page-footer
-{
-  margin-top: 80px;
-  background-image: linear-gradient(to bottom,#fdfeff,#d3dff1,#a6c1e9);
-} */
+*::-webkit-scrollbar-thumb {        
+  box-shadow: inset 0 0 0 10px;
+}
+*::-webkit-scrollbar-track{
+    color: rgba(0, 0, 0, 0.159);
+    box-shadow: inset 0 0 0 10px;
+
+}
 
 @media screen and (max-width: 1180px) {
     .team-cards {
