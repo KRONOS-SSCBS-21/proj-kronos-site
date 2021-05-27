@@ -287,6 +287,7 @@
 .caro-pic {
     width: 75%;
     margin-bottom: 4%;
+    height: auto;
 }
 
 .card-img-top{ 
@@ -640,6 +641,8 @@ footer.page-footer,
 
     .curve-background {
         width: 170%;
+        height: 84px;
+        top: -7px;
     }
 }
 
