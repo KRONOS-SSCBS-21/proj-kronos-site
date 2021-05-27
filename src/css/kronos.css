@@ -463,6 +463,20 @@ footer.page-footer,
     background: rgb(57, 193, 218);
 }
 
+#events{
+    overflow: hidden;
+    position: relative;
+}
+
+.curve-background {
+    fill: #ffffff;
+    width: 120%;
+    height: 104px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+}
+
 @keyframes headingup{
     0% {opacity: 0;}
     50% {opacity: 0.5;}
