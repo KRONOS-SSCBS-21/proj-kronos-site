@@ -60,10 +60,17 @@
 
 .navbar-collapse.collapse.show,
 .navbar-collapse.collapsing{
-    border-radius: 0 0 15px 15px;
-    box-shadow: 5px 8px rgba(145, 145, 145, 0.261);
-    background: #fafafa;
-    opacity: 0.97;
+    border-radius: 0 0 16px 16px;
+    /* box-shadow: 5px 8px rgba(145, 145, 145, 0.261); */
+    box-shadow:  0 5.8px 5.2px rgba(0, 0, 0, 0.034),
+    0 8.7px 7.3px rgba(0, 0, 0, 0.048),
+    0 15.5px 12px rgba(0, 0, 0, 0.06),
+    0 25.3px 19.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)    ;
+    background: #f6fbff;
+    /* opacity: 0.97; */
+    /* font-family:; */
 }
 
 .navbar-collapse.collapse.show .btn-outline-light,
