@@ -11,6 +11,10 @@
     float:right;
 }
 
+#top-main{
+    overflow: hidden;
+}
+
 /*NAVBAR CSS*/
 
 .kronos-top-block-container{
