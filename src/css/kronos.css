@@ -514,7 +514,7 @@ footer.page-footer,
 *::-webkit-scrollbar-track{
     color: rgba(0, 0, 0, 0.159);
     box-shadow: inset 0 0 0 10px;
-
+}
 
 @media screen and (max-width: 1240px){
     .navbar-toggler-icon{
