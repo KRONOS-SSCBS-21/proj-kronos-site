@@ -19,7 +19,7 @@
 
 .kronos-top-block-container{
     min-height: 850px;
-    background-image: url("./Banner_bg.png");
+    background-image: url("../../assets/images/Banner_bg.png");
     background-size: cover;
 }
 
@@ -704,7 +704,7 @@ footer.page-footer,
         display: none;
     }
     .kronos-top-block-container{
-        background-image: url('image.jpg') ;
+        background-image: url('../../assets/images/image.jpg') ;
 
     }
 }
