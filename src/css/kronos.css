@@ -289,6 +289,7 @@
 .caro-pic {
     width: 75%;
     margin-bottom: 4%;
+    height: auto;
 }
 
 .card-img-top{ 
@@ -553,7 +554,7 @@ footer.page-footer,
     .navbar-collapse{
         max-width: 340px;
         position: absolute;
-        top: 74px;
+        top: 80px;
         right: 100px;
     }
     .animated{
@@ -642,6 +643,12 @@ footer.page-footer,
 
     .curve-background {
         width: 170%;
+        height: 84px;
+        top: -7px;
+    }
+
+    .navbar-collapse .btn-outline-light{
+        background: #0d6efd!important;
     }
 }
 
@@ -656,8 +663,9 @@ footer.page-footer,
     }
 
     .navbar-collapse{
-        max-width: 90%;
-        right: 20px;
+        max-width: 100%;
+        right: 0px;
+        top: 80px;
     }
 
     .events-con{
