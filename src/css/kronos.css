@@ -168,7 +168,7 @@
 .card:hover{
     border-radius: 5px;
     box-shadow: 5px 10px 8px #888888;
-    transform: scale(1.08,1.08);
+    transform: scale(1.02,1.02);
 }
 .cards{
     padding: 4% 7%;
@@ -513,6 +513,14 @@ footer.page-footer,
         top: 74px;
         right: 100px;
     }
+    .animated{
+        margin-top:10%;
+        margin-right: 10%;
+        max-width: 54%;
+    }
+    .kronos-desc-block{
+        width:22rem;
+    }
 }
 
 @media screen and (max-width: 940px){
@@ -576,7 +584,9 @@ footer.page-footer,
     }
 
     .animated{
-        display: none;
+        margin-top:20%;
+        margin-right:14%;
+        max-width:65%;
     }
 
     .kronos-top-block-container {
@@ -584,11 +594,15 @@ footer.page-footer,
     }
 
     .abt-us-heading{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 }
 
 @media screen and (max-width: 460px){
+    
+    .kronos-logo{
+        max-width: 230px;
+    }
     .kronos-position-absolute{
         width: 140px;
         height: 100px;
@@ -634,3 +648,19 @@ footer.page-footer,
     }
 }
 
+@media screen and (min-width: 310px) and (max-width:459px){
+    .kronos-logo{
+        max-width:180px;
+    }
+}
+@media screen and (max-width: 620px){
+    .animated{
+        display: none;
+    }
+    .kronos-top-block-container{
+        background-image: url('image.jpg') ;
+        /* object-fit: cover; */
+        /* background-size: fill; */
+        /* background: #000; */
+    }
+}
