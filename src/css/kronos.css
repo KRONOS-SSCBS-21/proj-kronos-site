@@ -216,6 +216,11 @@
     margin-left: 7%;
 }
 
+.abt-us-img:hover{
+    transform: scale(1.1);
+    transition: 80ms ease;
+}
+
 .abt-us {
     
     padding-right: 2%;
