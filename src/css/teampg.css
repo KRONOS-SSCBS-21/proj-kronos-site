@@ -231,6 +231,11 @@
         height: 140px;
         left: 55px;
     }
+    .member-images-year2,
+    .member-images-year3{
+        left: 65px;
+    }
+
     .members-cards {
         width: 250px !important;
     }
@@ -253,6 +258,12 @@
         height: 150px;
         left: 50px;
     }
+    
+    .member-images-year2,
+    .member-images-year3 {
+      left: 100px;
+    }
+
     .members-cards {
         width: 250px !important;
     }
@@ -287,7 +298,7 @@
         border-radius: 100px;
         width: 130px;
         height: 130px;
-        left: 97px;
+        left: 85px;
     }
     .members-cards {
         width: 230px !important;
@@ -322,7 +333,7 @@
         border-radius: 100px;
         width: 150px;
         height: 150px;
-        left: 106px;
+        left: 105px;
     }
     .members-cards {
         width: 300px !important;
