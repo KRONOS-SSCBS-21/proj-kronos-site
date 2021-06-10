@@ -621,9 +621,6 @@ footer.page-footer,
         border-radius: 50%;
         width: 50px;
     }
-    .kronos-banner-logo {
-        width: 60%;
-    }
     /* .animated {
         margin-top: 20%;
         margin-right: 14%;
@@ -715,10 +712,7 @@ footer.page-footer,
 
 @media screen and (max-width: 1186px) {
     .animated {
-        max-width: 46%;
-    }
-    .kronos-banner-logo {
-        width: 70%;
+        max-width: 52%;
     }
     .kronos-h1 {
         width: 30rem;
@@ -744,5 +738,11 @@ footer.page-footer,
     }
     .kronos-block-inner-container {
         padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 1496px) {
+    .kronos-banner-logo {
+        width: 68%;
     }
 }
