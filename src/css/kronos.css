@@ -128,7 +128,7 @@
 .kronos-block-inner-container{
     padding: 0 120px;
     display: grid;
-    grid-row-gap: 40px;
+    grid-row-gap: 100px;
 }
 
 .kronos-position-absolute{
@@ -137,8 +137,9 @@
 }
 
 .kronos-banner-logo{
-    width:65%;
-    height:120px;
+    width:55%;
+    height:auto;
+    padding-bottom: 5.5px;
 }
 
 .kronos-heading-block{
@@ -321,7 +322,7 @@
 
 .kronos-h1 {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 33px;
 }
 
 .card-body {
