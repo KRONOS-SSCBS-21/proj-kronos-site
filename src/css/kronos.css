@@ -152,6 +152,60 @@
     display: none;
 }
 
+/* hackCBS Section */
+
+#hackCBS{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top, #fdfeff, #d3dff1, #a6c1e9);
+}
+
+.hackCBS_heading{
+    font-size:2.5rem;
+    text-align: center;
+    margin-top: 2%;
+    font-weight: 500;
+}
+
+.hackCBS-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.hackCBS-logo{
+    width:85%;
+}
+
+.hackCBS-image-container{
+    flex:1;
+}
+
+.hackCBS-content{
+    flex: 2;
+    width:60%;
+    padding: 40px;
+    font-size: 1.20rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.stat-icons {
+    font-size: 90px;
+    color:rgba(51, 51, 51, .5)
+}
+
+.stat-counts{
+    font-size: 40px;
+    font-weight:720;
+}
+
+.stats h5 {
+    font-weight: 720;
+    margin-bottom: 4rem;
+    line-height: 1.5rem;
+}
 
 /* Events-Cards Section */
 
@@ -201,16 +255,10 @@
 }
 
 #events {
-    background: #014FC6;
-    margin-top: 0;
     width: 100%;
     align-content: center;
     text-align: center;
-    padding-bottom: 4%;
-}
-
-.events-con {
-    padding-top: 5%;
+    /* padding-bottom: 4%; */
 }
 
 .abt-us-img {
