@@ -193,7 +193,7 @@
 }
 
 .stat-icons {
-    font-size: 90px;
+    font-size: 70px;
     color:rgba(51, 51, 51, .5)
 }
 
@@ -581,6 +581,19 @@ footer.page-footer,
         stroke: black;
         fill: black;
     }
+
+    #events .container-fluid{
+        padding-top: 0px;
+        height: auto;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .caro-pic{
+        width:100%;
+        height: auto;
+    }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -629,6 +642,12 @@ footer.page-footer,
     }
     .kronos-h1 {
         width: 26rem;
+    }
+
+    #events .container-fluid{
+        padding-top: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
@@ -774,6 +793,12 @@ footer.page-footer,
     .kronos-block-inner-container {
         padding: 0 26px;
     }
+
+    #events .container-fluid{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 
 @media screen and (max-width: 460px) {
@@ -783,6 +808,13 @@ footer.page-footer,
     .kronos-block-inner-container {
         padding: 0px 10px;
     }
+
+    #events .container-fluid{
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 0px;
+    }
+
 }
 
 @media screen and (max-width: 1496px) {
