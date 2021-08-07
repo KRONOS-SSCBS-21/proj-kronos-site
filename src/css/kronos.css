@@ -181,6 +181,10 @@
     width:85%;
 }
 
+.logo-mobile{
+    display: none;
+}
+
 .hackCBS-image-container{
     position: absolute;
     opacity: 0.09;
@@ -889,6 +893,23 @@ footer.page-footer,
         padding-right: 8px;
         padding-top: 0px;
     }
+
+    .hackCBS-image-container.logo-mobile{
+        display: block;
+        position: unset;
+        width: 50%;
+        opacity: 1;
+        margin: auto;
+    }
+
+    .hackCBS_heading{
+        font-size: 2rem;
+    }
+
+    .hackCBS-image-container.logo-desktop{
+        display: none;
+    }
+
 
 }
 
