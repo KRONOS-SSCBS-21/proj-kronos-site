@@ -160,7 +160,7 @@
     padding: 10px;
     padding-top:40px;
     border-radius: 20px;
-    background-image: linear-gradient(to top, #fdfeff, #d3dff1,  #778899);
+    background-image: linear-gradient(to top, #fdfeff, #d3dff1,  #fdfeff);
 }
 
 .hackCBS_heading{
@@ -183,7 +183,7 @@
 
 .hackCBS-image-container{
     position: absolute;
-    opacity: 0.1;
+    opacity: 0.09;
     top: -32%;
     left: 23%;
     width: 65%;
@@ -199,7 +199,6 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    color: #f2fafb;
     font-weight: 800;
 }
 
