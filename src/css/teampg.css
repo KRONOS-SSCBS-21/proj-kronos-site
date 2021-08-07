@@ -330,7 +330,7 @@
 @media screen and (max-width: 800px) {
     .team-cards,
     .team-cards-responsive {
-        grid-template-columns: repeat(1, 360px);
+        grid-template-columns: repeat(2, 280px);
     }
     .team-cards-responsive-oc {
         grid-template-columns: repeat(2, 300px);
@@ -346,7 +346,9 @@
         height: 150px;
         left: 75px;
     }
-    .member-images-year2,
+    .member-images-year2{
+        left: 75px;
+    }
     .member-images-year3 {
         border-radius: 100px;
         width: 150px;
@@ -356,7 +358,9 @@
     .members-cards {
         width: 300px !important;
     }
-    .members-cards-year2,
+    .members-cards-year2{
+        width: 280px !important;
+    }
     .members-cards-year3 {
         width: 360px !important;
     }
