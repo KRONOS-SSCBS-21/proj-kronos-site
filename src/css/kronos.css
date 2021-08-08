@@ -1,7 +1,6 @@
 .kronos-site {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 1.25rem;
 }
 
 .animated {
@@ -58,6 +57,7 @@
 
 .nav-link {
     font-weight: 400;
+    font-size: 1.25rem;
 }
 
 .navbar-collapse.collapse.show,
@@ -287,7 +287,7 @@
     padding-right: 2%;
 }
 
-.row {
+.row-cards {
     padding: 3% 5% 3%;
     margin-left: auto;
     margin-right: auto;
@@ -423,23 +423,26 @@ button.close {
 
 /* ---- Footer Section ----*/
 
+.footer-logo{
+    width: 249px;
+    height: 80px;
+    margin-top: 70px;
+}
+
 footer.page-footer,
 .page-footer {
     background-image: linear-gradient(to bottom, #fdfeff, #d3dff1, #a6c1e9);
     color: black !important;
+    font-weight: 400;
+    padding-top: 75px;
 }
 
 .page-footer a {
     color: black !important;
     text-decoration: unset;
 }
-
-.page-footer .back {
-    padding: 20px 0 15px;
-}
-
-.page-footer .back .row {
-    padding: 0 !important;
+.align-center {
+    text-align: center;
 }
 
 .page-footer .back a {
@@ -490,7 +493,7 @@ footer.page-footer,
     font-size: 26px;
     color: #c23aab;
 }
-
+/* 
 .kronos-footer-link-column i {
     padding-top: 5px;
     padding-right: 5px;
@@ -498,7 +501,7 @@ footer.page-footer,
 
 .page-footer .row {
     padding: 3% 5% 0%;
-}
+} */
 
 .kronos-copyright-text {
     padding: 0px 15px 15px;
