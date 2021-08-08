@@ -425,10 +425,9 @@ button.close {
 
 /* ---- Footer Section ----*/
 
-.footer-logo{
-    width: 249px;
-    height: 80px;
-    margin-top: 70px;
+.footer-logo img{
+    width: 200px;
+    height: 200px;
 }
 
 footer.page-footer,
@@ -646,6 +645,10 @@ footer.page-footer,
     .hackCBS-image-container img {
         width: 100%;
     }
+    .footer-logo img{
+        width: 185px;
+        height: 185px;
+    }
 }
 
 @media screen and (max-width: 990px) {
@@ -678,9 +681,6 @@ footer.page-footer,
     .navbar-collapse {
         right: 50px;
     }
-    .page-footer .row {
-        padding: 7% 5% 3%;
-    }
     .animated {
         margin-top: 71px;
     }
@@ -705,6 +705,13 @@ footer.page-footer,
         top: -5%;
         left: 6%;
         width: 90%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-logo img{
+        width: 150px;
+        height: 157px;
     }
 }
 
@@ -902,6 +909,13 @@ footer.page-footer,
         width: 68%;
     }
 }
+
+@media screen and (max-width: 426px) {
+    .footer-logo img{
+        margin-bottom: 15px !important;
+    }
+}
+
 
 @media screen and (max-width:400px) {
     .kronos-top-block-container {
