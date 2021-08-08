@@ -435,6 +435,7 @@ footer.page-footer,
 .page-footer {
     background-image: linear-gradient(to bottom, #fdfeff, #d3dff1, #a6c1e9);
     color: black !important;
+    font-size: 1.15rem;
     font-weight: 400;
     padding-top: 75px;
 }
@@ -731,7 +732,7 @@ footer.page-footer,
         -webkit-line-clamp: 4;
     }
     .page-footer .back a {
-        padding: 0 25px;
+        padding: 0 15px;
     }
     .take-up-arrow {
         width: 50px;
