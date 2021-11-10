@@ -200,6 +200,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.end-responsive{
+    display: grid;
+    width:1000px;
+    margin-left: 0 !important;
+    grid-template-columns: repeat(4,250px);
+    grid-gap: 40px;
+    padding-top: 40px;
+    justify-content: center;
+}
+
 *::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
   width: 13px;
@@ -220,14 +230,14 @@
 
 @media screen and (min-width: 1181px){
     .team-cards-oc :nth-child(9){
-        margin-left: 58%;
+        margin-left: 280px;
     }
     .team-cards-oc :nth-child(10){
-        margin-left: 58%;
+        margin-left: 280px;
     }
-    .team-cards-oc :nth-child(11){
+    /* .team-cards-oc :nth-child(11){
         margin-left: 58%;
-    }
+    } */
 }
 
 @media screen and (min-width: 946px) and (max-width: 1180px) {
@@ -238,11 +248,11 @@
         grid-template-columns: repeat(3, 250px);
     }
     .team-cards-oc :nth-child(10){
-        margin-left: 58%;
+        margin-left: 280px;
     }
-    .team-cards-oc :nth-child(11){
+    /* .team-cards-oc :nth-child(11){
         margin-left: 58%;
-    }
+    } */
     .member-images {
         border-radius: 100px;
         width: 140px;
@@ -270,6 +280,7 @@
     .team-cards-oc {
         grid-template-columns: repeat(3, 250px);
     }
+
     .member-images {
         border-radius: 100px;
         width: 150px;
@@ -367,8 +378,10 @@
 
     .end-responsive{
         display: grid;
-        grid-template-columns: repeat(1, 300px);
-        margin-left:170px;
+        grid-template-columns: 500px 500px 500px;
+        /* grid-template-columns: repeat(1, 300px); */
+        /* margin-left:170px; */
+        margin-left: 0;
 
     }
 }
