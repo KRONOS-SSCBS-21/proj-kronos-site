@@ -970,6 +970,9 @@ footer.page-footer,
     .kronos-block-inner-container {
         grid-row-gap: 39px;
     }
+    .navbar-collapse {
+        top: 56px;
+    }
 }
 
 @media screen and (max-width:350px) {
