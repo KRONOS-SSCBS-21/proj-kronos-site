@@ -920,6 +920,10 @@ footer.page-footer,
     .hackCBS-image-container.logo-desktop {
         display: none;
     }
+
+    .footer-logo img{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1496px) {
@@ -929,9 +933,9 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 426px) {
-    .footer-logo img{
-        margin-bottom: 15px !important;
-    }
+    /*.footer-logo img{
+        margin-bottom: 15px !important; 
+    }*/
 }
 
 
