@@ -661,10 +661,9 @@ footer.page-footer,
         width: 185px;
         height: 185px;
     } */
-    .footer-logo img{
+    .logo_container{
         display: none;
     }
-
     .col-lg-3{
         width: 150px;
         height: 0;
@@ -914,8 +913,14 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 460px) {
+    .kronos-heading-block{
+        padding-left: 32px;
+    }
+    .kronos-banner-logo {
+        width: 44% !important;
+    }
     .kronos-h1 {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
     .kronos-block-inner-container {
         padding: 0px 10px;
@@ -980,6 +985,6 @@ footer.page-footer,
         width: 55%;
     }
     .kronos-h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
