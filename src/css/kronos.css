@@ -23,7 +23,9 @@ html,body
     overflow: hidden;
 }
 
-
+.fixed-top{
+    right: 14px;
+}
 /*NAVBAR CSS*/
 
 .kronos-top-block-container {
@@ -581,19 +583,20 @@ footer.page-footer,
 
 *::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
-    width: 13px;
+    width: 14px;
     color: rgb(100, 100, 100);
-    border-radius: 20px;
+    border-radius: 8px;
     background-clip: padding-box;
     border: 3px solid transparent;
 }
 
 *::-webkit-scrollbar-thumb {
     box-shadow: inset 0 0 0 10px;
+    color: rgb(65, 68, 104);
 }
 
 *::-webkit-scrollbar-track {
-    color: rgba(0, 0, 0, 0.159);
+    color: rgba(52, 69, 110, 0.336);
     box-shadow: inset 0 0 0 10px;
 }
 
@@ -857,6 +860,12 @@ footer.page-footer,
         top: 25%;
         left: 6%;
         width: 90%;
+    }
+    *::-webkit-scrollbar{
+        display: none;
+    }
+    .fixed-top{
+        right:0;
     }
 }
 
