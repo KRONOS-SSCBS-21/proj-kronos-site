@@ -93,7 +93,9 @@ function handleScroll(){
 }
 
 $(document).scroll(handleScroll);
-
-document.querySelector("take-up-arrow").addEventListener("click" , function(){
-    document.querySelector("take-up-arrow").classList.add("hide-arrow");
-})
+if(document.querySelector("take-up-arrow"))
+{
+	document.querySelector("take-up-arrow").addEventListener("click" , function(){
+		document.querySelector("take-up-arrow").classList.add("hide-arrow");
+	})
+}
