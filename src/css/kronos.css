@@ -600,6 +600,12 @@ footer.page-footer,
     box-shadow: inset 0 0 0 10px;
 }
 
+@media screen and (max-width: 1496px) {
+    .kronos-banner-logo {
+        width: 68%;
+    }
+}
+
 @media screen and (max-width: 1380px) {
     .hackCBS-image-container {
         top: -22%;
@@ -629,6 +635,19 @@ footer.page-footer,
     .caro-pic {
         width: 100%;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 1186px) {
+    .animated {
+        max-width: 52%;
+    }
+    .kronos-h1 {
+        width: 30rem;
+        font-size: 42px;
+    }
+    .kronos-block-inner-container {
+        padding: 0 51px;
     }
 }
 
@@ -719,6 +738,19 @@ footer.page-footer,
     }
 }
 
+@media screen and (max-width: 898px) {
+    .animated {
+        margin-right: 0%;
+    }
+    .kronos-block-inner-container {
+        padding: 0 26px;
+    }
+    #events .container-fluid {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+
 @media screen and (max-width: 820px) {
     .hackCBS-image-container {
         top: -5%;
@@ -736,6 +768,12 @@ footer.page-footer,
     .col-lg-3{
         width: 110px;
         height: 0;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    .footer-logo img{
+        display: none;
     }
 }
 
@@ -881,37 +919,6 @@ footer.page-footer,
     }
 }
 
-@media screen and (max-width: 1186px) {
-    .animated {
-        max-width: 52%;
-    }
-    .kronos-h1 {
-        width: 30rem;
-        font-size: 42px;
-    }
-    .kronos-block-inner-container {
-        padding: 0 51px;
-    }
-}
-
-@media screen and (max-width: 898px) {
-    .animated {
-        margin-right: 0%;
-    }
-    .kronos-block-inner-container {
-        padding: 0 26px;
-    }
-    #events .container-fluid {
-        padding-left: 40px;
-        padding-right: 40px;
-    }
-}
-@media screen and (max-width: 766px) {
-    .footer-logo img{
-        display: none;
-    }
-}
-
 @media screen and (max-width: 460px) {
     .kronos-heading-block{
         padding-left: 32px;
@@ -946,12 +953,6 @@ footer.page-footer,
 
     .footer-logo img{
         display: none;
-    }
-}
-
-@media screen and (max-width: 1496px) {
-    .kronos-banner-logo {
-        width: 68%;
     }
 }
 
