@@ -611,20 +611,20 @@ footer.page-footer,
 
 *::-webkit-scrollbar,
 *::-webkit-scrollbar-thumb {
-    width: 14px;
+    width: 10px;
     color: rgb(100, 100, 100);
-    border-radius: 8px;
+    border-radius: 10px;
     background-clip: padding-box;
-    border: 3px solid transparent;
+    border: 2px solid transparent;
 }
 
 *::-webkit-scrollbar-thumb {
-    box-shadow: inset 0 0 0 10px;
-    color: rgb(65, 68, 104);
+    box-shadow: inset 0 0 0 5px;
+    color: rgb(40, 40, 44);
 }
 
 *::-webkit-scrollbar-track {
-    color: rgba(52, 69, 110, 0.336);
+    color: rgba(24, 25, 27, 0.336);
     box-shadow: inset 0 0 0 10px;
 }
 
