@@ -368,7 +368,7 @@
         border-radius: 100px;
         width: 150px;
         height: 150px;
-        left: 105px;
+        left: 75px;
     }
     .members-cards {
         width: 300px !important;
@@ -377,9 +377,10 @@
         width: 280px !important;
     }
     .members-cards-year3 {
-        width: 360px !important;
+        /* width: 360px !important; */
+        width: 300px;
     }
-
+/*  */
     .end-responsive{
         display: grid;
         grid-template-columns: 500px 500px 500px;
