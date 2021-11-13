@@ -580,8 +580,8 @@ footer.page-footer,
 }
 
 ::selection {
-    color: rgb(0, 0, 0);
-    background: rgb(57, 193, 218);
+    color: rgb(41, 41, 41);
+    background: rgb(197, 238, 236);
 }
 
 #events {
