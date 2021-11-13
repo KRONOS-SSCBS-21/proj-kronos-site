@@ -30,7 +30,7 @@ $(document).ready(function () {
       $(".navbar").css("background", "#fff");
       $( '.nav-link' ).each(function () {
         this.style.setProperty( 'color', '#000', 'important' );
-    });
+      });
       $(".nav-button").removeClass("btn-outline-light").addClass("btn-outline-dark");
       $(".navbar-toggler-icon").addClass("navbar-toggler-icon-dark");
       $(".navbar-toggler").addClass("custom-navbar-toggler");
@@ -48,6 +48,12 @@ $(document).ready(function () {
       $(".navbar").css("background", "rgba(0, 0, 0, 0)");
       $(".navbar").css("transition", "0.7s");
       $(".navbar").removeClass("shadow p-2 rounded");
+    }
+
+    if($(window).width() <= 580){
+      $( '.nav-link' ).each(function () {
+        this.style.setProperty( 'color', '#000', 'important' );
+      });
     }
   });
 });

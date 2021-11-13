@@ -1043,6 +1043,14 @@ footer.page-footer,
         margin-top: 0%;
     }
 
+    .events-con .carousel-item {
+        height: 200px;
+    }
+
+    .events-con .carousel-item img {
+        height: 100%;
+    }
+
 }
 
 /*@media screen and (max-width: 426px) {
