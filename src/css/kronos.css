@@ -199,6 +199,8 @@ html,body
     margin-top: 2%;
     font-weight: 800;
     color: #0552c7;
+    text-shadow: 2px 1px 1px rgba(66, 66, 66, 0.423),
+               3px 2px 1px rgba(66, 66, 66, 0.423);
 }
 
 .hackCBS-container {
@@ -233,7 +235,8 @@ html,body
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-weight: 800;
+    /* font-weight: 800; */
+    font-weight: 100;
 }
 
 .stat-icons {
@@ -425,6 +428,17 @@ html,body
 
 .modal-open .modal {
     background: rgba(51, 51, 51, .5);
+}
+
+.modal-content{
+    background-color: white;
+    box-shadow: 6px 6px 8px 1px #5e5e5e;
+    border-radius: 6px;
+    border-color: transparent;
+}
+
+.modal-body{
+    font-weight: 300;
 }
 
 .close {
