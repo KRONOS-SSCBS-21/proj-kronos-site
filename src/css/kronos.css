@@ -122,10 +122,10 @@ html,body
 /*BLOCK CONTAINER CSS*/
 
 .kronos-block-container {
-    padding-top: 60px;
+    padding-top: 140px;
     padding-bottom: 60px;
     color: black;
-    background: rgba(38, 38, 39, 0.86);
+    background: rgba(38, 38, 39, 0.8);
     min-height: 600px;
     position: relative;
 }
@@ -648,11 +648,10 @@ footer.page-footer,
         max-width: 52%;
     }
     .kronos-h1 {
-        width: 30rem;
         font-size: 42px;
     }
     .kronos-block-inner-container {
-        padding: 0 51px;
+        padding: 80px 51px;
     }
 }
 
@@ -665,9 +664,11 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 1024px) {
-    .navbar .container-fluid,
+    .navbar .container-fluid {
+        padding: 80px 90px;
+    }
     .kronos-block-inner-container {
-        padding: 0 90px;
+        padding: 80px 90px;
     }
     #events .container-fluid {
         padding-top: 80px;
@@ -717,9 +718,12 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 940px) {
-    .navbar .container-fluid,
+    .navbar .container-fluid {
+        padding: 0px 40px;
+    }
+
     .kronos-block-inner-container {
-        padding: 0 40px;
+        padding: 80px 40px;
     }
     .navbar-collapse {
         right: 50px;
@@ -729,9 +733,6 @@ footer.page-footer,
     }
     .kronos-heading-block {
         padding-left: 0px;
-    }
-    .kronos-h1 {
-        width: 26rem;
     }
     #events .container-fluid {
         padding-top: 15px;
@@ -748,7 +749,7 @@ footer.page-footer,
         margin-right: 0%;
     }
     .kronos-block-inner-container {
-        padding: 0 26px;
+        padding: 80px 26px;
     }
     #events .container-fluid {
         padding-left: 40px;
@@ -783,15 +784,17 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 700px) {
-    .navbar .container-fluid,
-    .kronos-block-inner-container {
+    .navbar .container-fluid {
         padding: 0 20px;
+        width: 100%;
+    }
+    .kronos-block-inner-container {
+        padding: 80px 20px;
         width: 100%;
     }
     .kronos-heading-block {
         padding-left: 0px;
         padding-top: 20px;
-        margin-top: -13rem;
     }
     .kronos-desc-block {
         padding-left: 20px;
@@ -820,9 +823,6 @@ footer.page-footer,
         margin-right: 14%;
         max-width: 65%;
     } */
-    .kronos-top-block-container {
-        min-height: 750px;
-    }
     .abt-us-heading {
         font-size: 2.5rem;
     }
@@ -841,68 +841,9 @@ footer.page-footer,
     }
 }
 
-
-/* @media screen and (max-width: 460px) {
-    .kronos-logo {
-        max-width: 230px;
-    }
-    .kronos-h1 {
-        font-size: 2rem;
-    }
-    .kronos-position-absolute {
-        width: 140px;
-        height: 100px;
-    }
-    .navbar-collapse {
-        max-width: 100%;
-        right: 0px;
-        top: 80px;
-    }
-    .events-con {
-        padding-top: 4%;
-    }
-    .kronos-event-heading {
-        padding-top: 16%;
-    }
-    .event-heading,
-    .kronos-event-heading {
-        font-size: 2rem;
-    }
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-    .carousel-indicators {
-        margin-bottom: -1rem;
-    }
-    .caro-pic {
-        width: 90%;
-    }
-    #events {
-        padding-bottom: 10%;
-    }
-    .page-footer .back a {
-        padding: 0 12px;
-    }
-    .page-footer hr:not([size]) {
-        margin-bottom: 0 !important;
-    }
-   
-} */
-
-
-/* @media screen and (min-width: 310px) and (max-width:459px) {
-    .kronos-logo {
-        max-width: 180px;
-    }
-} */
-
 @media screen and (max-width: 640px) {
     .animated {
         display: none;
-    }
-    .kronos-top-block-container {
-        background-image: url('../../assets/images/image.jpg');
     }
     .kronos-heading-block {
         margin-top: 0rem;
@@ -924,18 +865,24 @@ footer.page-footer,
     }
 }
 
-@media screen and (max-width: 460px) {
-    .kronos-heading-block{
-        padding-left: 32px;
-    }
+@media screen and (max-width: 580px) {
     .kronos-banner-logo {
-        width: 44% !important;
+        width: 75% !important;
+    }
+    .kronos-h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .kronos-banner-logo {
+        width: 75% !important;
     }
     .kronos-h1 {
         font-size: 1.3rem;
     }
     .kronos-block-inner-container {
-        padding: 0px 10px;
+        padding: 80px 10px;
     }
     #events .container-fluid {
         padding-left: 8px;
@@ -969,9 +916,6 @@ footer.page-footer,
 
 
 @media screen and (max-width:400px) {
-    .kronos-top-block-container {
-        background-image: url(../../assets/images/Banner.jpeg);
-    }
     .kronos-logo {
         height: 18px;
     }
@@ -988,7 +932,8 @@ footer.page-footer,
 
 @media screen and (max-width:350px) {
     .kronos-banner-logo {
-        width: 55%;
+        width: 75%;
+        margin-left: -10px;
     }
     .kronos-h1 {
         font-size: 1.3rem;
