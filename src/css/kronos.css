@@ -21,16 +21,16 @@ html,body
 #top-main {
     overflow: hidden;
 }
-
+/* 
 .fixed-top{
     right: 14px;
-}
+} */
 /*NAVBAR CSS*/
 
 .kronos-top-block-container {
-    min-height: 850px;
-    background-image: url("../../assets/images/Banner_bg.png");
-    background-size: cover;
+    height: 100vh;
+    /* background-image: url("../../assets/images/Banner_bg.png"); */
+    /* background-size: cover; */
 }
 
 .kronos-logo {
@@ -458,7 +458,6 @@ footer.page-footer,
 }
 
 .page-footer .back a {
-    /* color: white !important; */
     text-decoration: unset;
     padding: 0 30px;
 }
@@ -505,15 +504,6 @@ footer.page-footer,
     font-size: 26px;
     color: #c23aab;
 }
-/* 
-.kronos-footer-link-column i {
-    padding-top: 5px;
-    padding-right: 5px;
-}
-
-.page-footer .row {
-    padding: 3% 5% 0%;
-} */
 
 .kronos-copyright-text {
     padding: 0px 15px 15px;
@@ -835,62 +825,6 @@ footer.page-footer,
     }
 }
 
-
-/* @media screen and (max-width: 460px) {
-    .kronos-logo {
-        max-width: 230px;
-    }
-    .kronos-h1 {
-        font-size: 2rem;
-    }
-    .kronos-position-absolute {
-        width: 140px;
-        height: 100px;
-    }
-    .navbar-collapse {
-        max-width: 100%;
-        right: 0px;
-        top: 80px;
-    }
-    .events-con {
-        padding-top: 4%;
-    }
-    .kronos-event-heading {
-        padding-top: 16%;
-    }
-    .event-heading,
-    .kronos-event-heading {
-        font-size: 2rem;
-    }
-    .carousel-control-next,
-    .carousel-control-prev {
-        display: none;
-    }
-    .carousel-indicators {
-        margin-bottom: -1rem;
-    }
-    .caro-pic {
-        width: 90%;
-    }
-    #events {
-        padding-bottom: 10%;
-    }
-    .page-footer .back a {
-        padding: 0 12px;
-    }
-    .page-footer hr:not([size]) {
-        margin-bottom: 0 !important;
-    }
-   
-} */
-
-
-/* @media screen and (min-width: 310px) and (max-width:459px) {
-    .kronos-logo {
-        max-width: 180px;
-    }
-} */
-
 @media screen and (max-width: 640px) {
     .animated {
         display: none;
@@ -954,13 +888,6 @@ footer.page-footer,
         display: none;
     }
 }
-
-/*@media screen and (max-width: 426px) {
-    .footer-logo img{
-        margin-bottom: 15px !important; 
-    }
-}*/
-
 
 @media screen and (max-width:400px) {
     .kronos-top-block-container {
