@@ -579,6 +579,20 @@ footer.page-footer,
     width: 65px;
 }
 
+a#footer-query{
+    font-weight: 400;
+    color: #1a6994 !important;
+    font-family: system-ui;
+    font-size: large;  
+}
+
+a#footer-query:hover{
+    font-weight: bold;
+    font-size:larger;
+    font-style: normal;
+    color: #0a3a53 !important;
+}
+
 ::selection {
     color: rgb(41, 41, 41);
     background: rgb(197, 238, 236);
