@@ -133,17 +133,6 @@ html,body
     grid-row-gap: 100px;
 }
 
-.kronos-position-absolute {
-    position: absolute;
-    right: 0;
-}
-
-.kronos-banner-logo {
-    width: 55%;
-    height: auto;
-    padding-bottom: 5.5px;
-}
-
 .kronos-heading-block {
     padding-left: 40px;
     padding-top: 40px;
@@ -151,11 +140,10 @@ html,body
     font-weight: 800;
 }
 
-.kronos-desc-block {
-    padding-left: 40px;
-    font-size: 1.25rem;
-    font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+.kronos-banner-logo {
+    width: 45%;
+    height: auto;
+    padding-bottom: 5.5px;
 }
 
 .hide-arrow {
