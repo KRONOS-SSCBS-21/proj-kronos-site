@@ -26,10 +26,21 @@ $(document).ready(function () {
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 200) {
-      $(".navbar").css("background", "#1461d4");
+      $(".kronos-logo").attr("src" , "assets/images/kronos-logo-black-2.png");
+      $(".navbar").css("background", "#fff");
+      $( '.nav-link' ).each(function () {
+        this.style.setProperty( 'color', '#000', 'important' );
+    });
+      $(".nav-button").removeClass("btn-outline-light").addClass("btn-outline-dark");
       $(".navbar").css("transition", "0.7s");
       $(".navbar").addClass("shadow p-2 rounded");
     } else {
+      $(".kronos-logo").attr("src" , "assets/images/kronos-logo.png");
+      $(".navbar").css("background", "none");
+      $( '.nav-link' ).each(function () {
+        this.style.setProperty( 'color', '#fff', 'important' );
+      });
+      $(".nav-button").removeClass("btn-outline-dark").addClass("btn-outline-light");
       $(".navbar").css("background", "rgba(0, 0, 0, 0)");
       $(".navbar").css("transition", "0.7s");
       $(".navbar").removeClass("shadow p-2 rounded");
