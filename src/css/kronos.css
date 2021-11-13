@@ -134,7 +134,7 @@ html,body
     padding-bottom: 60px;
     color: black;
     background: rgba(38, 38, 39, 0.8);
-    min-height: 600px;
+    min-height: 100vh;
     position: relative;
 }
 
