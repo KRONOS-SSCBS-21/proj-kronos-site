@@ -28,8 +28,8 @@ html,body
 /*NAVBAR CSS*/
 
 .kronos-top-block-container {
-    min-height: 850px;
-    background-image: url("../../assets/images/Banner_bg.png");
+    /* min-height: 850px; */
+    background: url("../../assets/images/hackathon.jpg") bottom center no-repeat fixed;
     background-size: cover;
 }
 
@@ -125,10 +125,13 @@ html,body
     padding-top: 60px;
     padding-bottom: 60px;
     color: black;
+    background: rgba(38, 38, 39, 0.86);
+    min-height: 600px;
+    position: relative;
 }
 
 .kronos-block-inner-container {
-    padding: 0 120px;
+    padding: 80px 120px;
     display: grid;
     grid-row-gap: 100px;
 }
@@ -138,17 +141,25 @@ html,body
     right: 0;
 }
 
+.kronos-banner-section-help{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
 .kronos-banner-logo {
-    width: 55%;
+    margin-bottom: 20px;
+    margin-left: -30px;
+    width: 50%;
     height: auto;
     padding-bottom: 5.5px;
 }
 
 .kronos-heading-block {
-    padding-left: 40px;
-    padding-top: 40px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
+    text-align: center;
+    color: #fff;
 }
 
 .kronos-desc-block {
@@ -599,11 +610,6 @@ footer.page-footer,
     box-shadow: inset 0 0 0 10px;
 }
 
-@media screen and (max-width: 1496px) {
-    .kronos-banner-logo {
-        width: 68%;
-    }
-}
 
 @media screen and (max-width: 1380px) {
     .hackCBS-image-container {
