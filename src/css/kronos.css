@@ -22,9 +22,9 @@ html,body
     overflow: hidden;
 }
 
-.fixed-top{
+/* .fixed-top{
     right: 14px;
-}
+} */
 /*NAVBAR CSS*/
 
 .kronos-top-block-container {
@@ -303,7 +303,7 @@ html,body
     max-height: 600px;
     max-width: 500px;
     width: 100%;
-    margin-left: 7%;
+    /* margin-left: 7%; */
 }
 
 .abt-us {
@@ -665,7 +665,7 @@ footer.page-footer,
 
 @media screen and (max-width: 1024px) {
     .navbar .container-fluid {
-        padding: 80px 90px;
+        padding: 10px 40px;
     }
     .kronos-block-inner-container {
         padding: 80px 90px;
@@ -695,13 +695,17 @@ footer.page-footer,
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 992px) {
     .navbar-collapse {
         max-width: 340px;
         position: absolute;
         top: 80px;
         right: 100px;
     }
+    .navbar-light .navbar-toggler{
+        border-color: #fff !important;
+    }
+
     .animated {
         margin-top: 10%;
         margin-right: 6%;
