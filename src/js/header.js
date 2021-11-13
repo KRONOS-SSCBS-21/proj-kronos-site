@@ -27,7 +27,19 @@ $(document).ready(function () {
     var scroll = $(window).scrollTop();
     if (scroll > 200) {
       $(".kronos-logo").attr("src" , "assets/images/kronos-logo-black-2.png");
-      $(".navbar").css("background", "#fff");
+
+      if(window.location.pathname.split("/").pop() == 'index.html'){
+        $(".navbar").css("background", "#fff");
+      }
+
+      else if(window.location.pathname.split("/").pop() == 'teampage.html')
+      {
+        $(".navbar").each(function(){
+          this.style.setProperty("background", "#efefef","important");
+          this.style.setProperty("box-shadow","#3f414c 4px 3px 17px" ,"important")
+        })
+      }
+
       $( '.nav-link' ).each(function () {
         this.style.setProperty( 'color', '#000', 'important' );
       });

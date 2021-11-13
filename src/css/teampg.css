@@ -110,6 +110,10 @@
     background: #fafafa;
 }
 
+.navbar{
+    background-image: linear-gradient(356deg,#182b5c,#1741b5, #1f7ecf) !important;
+}
+
 .kronos-teampage .kronos-page-container {
     padding-top: 140px;
 }
