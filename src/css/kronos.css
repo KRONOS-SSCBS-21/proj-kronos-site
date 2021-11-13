@@ -637,7 +637,7 @@ footer.page-footer,
     }
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 2380px) {
     .abt-img{
         width: 45%;
         display: flex;
@@ -647,8 +647,20 @@ footer.page-footer,
     }
 
     .abt-us-img{
-        max-width : 90%;
-        max-height:100%;
+        max-width : 80%;
+        max-height:90%;
+    }
+
+    .abt-us{
+        margin-top: 0%;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .abt-img{
+        width: 45%;
+        display: flex;
+        justify-content: center;
     }
 
     .abt-us{
@@ -665,7 +677,7 @@ footer.page-footer,
 }
 
 @media screen and (max-width: 1244px) {
-    .abt-img{
+    .abt-us{
         margin-left: 0;
     }
 }
