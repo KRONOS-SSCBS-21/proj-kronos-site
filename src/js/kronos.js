@@ -58,3 +58,44 @@ window.addEventListener("DOMContentLoaded", () => {
 		modalDesc.innerHTML = desc.innerHTML;
 	}
 })
+
+
+    var togBtn = document.querySelector(".toggle-button");
+    const theme = document.querySelector(".theme-link");
+    const teamPgTheme = document.querySelector(".teamPg-theme-link");
+
+//javascript function to have darktheme toggler
+/*
+    togBtn.addEventListener("click" , function(){
+    if(theme.getAttribute("href") == "src/css/kronos.css")
+        { 
+            theme.setAttribute("href" , "src/css/kronos-dark.css");
+            togBtn.innerHTML="L";
+            togBtn.classList.remove("btn-outline-dark");
+            togBtn.classList.add("btn-outline-light");
+            teamPgTheme.setAttribute("href" , "src/css/teampg-dark.css");
+        }
+    else 
+        {
+            theme.setAttribute("href" , "src/css/kronos.css");
+            togBtn.innerHTML="D";
+            togBtn.classList.remove("btn-outline-light");
+            togBtn.classList.add("btn-outline-dark");  
+            teamPgTheme.setAttribute("href" , "src/css/teampg.css");
+        }
+    
+});
+*/
+
+//function to handle scroll and back to top button
+function handleScroll(){
+    document.querySelector(".take-up-arrow").classList.remove("hide-arrow");
+}
+
+$(document).scroll(handleScroll);
+if(document.querySelector("take-up-arrow"))
+{
+	document.querySelector("take-up-arrow").addEventListener("click" , function(){
+		document.querySelector("take-up-arrow").classList.add("hide-arrow");
+	})
+}

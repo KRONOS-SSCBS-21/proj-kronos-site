@@ -1,0 +1,558 @@
+/*NAVBAR CSS*/
+
+.kronos-top-block-container{
+    min-height: 600px;
+    /* background-color:rgb(18, 18, 19); */
+    background-color: #203647;
+}
+
+.kronos-logo{
+    max-width: 200px;
+    max-height: 60px;
+}
+
+.navbar-toggler-icon{
+    display: none;
+}
+
+.navbar.scrolled-up .kronos-logo.sticky{
+    display: block;
+}
+
+.navbar.scrolled-up .kronos-logo{
+    display: none;
+}
+
+.kronos-logo.sticky{
+    display: none;
+}
+
+.navbar-light .show>.navbar-nav .nav-link,
+.navbar-light .show>.navbar-nav .nav-link,
+.navbar-light .collapsing>.navbar-nav .nav-link,
+.scrolled-up.navbar-light .navbar-nav .nav-link,
+.scrolled-up.navbar-light .navbar-nav .nav-link,
+.scrolled-up.navbar-light .navbar-nav .nav-link{
+    color: black !important;
+}
+
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapsing{
+    background: #fafafa;
+    opacity: 0.97;
+}
+
+.navbar-collapse.collapse.show .btn-outline-light,
+.navbar-collapse.collapsing .btn-outline-light{
+    margin-bottom: 20px;
+}
+
+.navbar-collapse.collapse.show,
+.navbar-collapse.collapsing,
+.navbar-collapse.collapse{
+    padding: 0 20px;
+}
+
+
+.kronos-button{
+    padding: 10px 24px;  
+    width: max-content; 
+    margin-left: 40px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.toggle-button{
+      
+    width: max-content; 
+    margin-left: 40px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.navbar-brand{
+    font-size: 2.25rem;
+}
+
+.navbar .container-fluid{
+    padding: 0 120px;
+    color: white;
+    
+}
+
+.nav-link, 
+.navbar-brand{
+    color: white !important;
+}
+
+.nav-item{
+    margin-right: 1.3em;
+}
+
+
+/*BLOCK CONTAINER CSS*/
+
+
+
+.kronos-block-container{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: black;
+}
+
+.kronos-block-inner-container{
+    padding: 0 120px;
+    display: grid;
+    grid-row-gap: 40px;
+}
+
+.kronos-position-absolute{
+    position: absolute;
+    right: 0;
+}
+
+.kronos-heading-block{
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+.kronos-desc-block{
+    padding-left: 40px;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+/* Events-Cards Section */
+.kronos-events-cards{
+    width: auto;
+}
+.kronos-event-heading{
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #A0CED9;
+    font-weight: 800;
+    font-style: normal;
+}
+.card:hover{
+    border-radius: 5px;
+    box-shadow: 5px 10px 8px #888888;
+}
+.cards{
+    padding: 4% 7%;
+    text-align: center;
+}
+.col-card{
+    padding: 0 2.8%;
+}
+
+.card{
+    background-color: #f1f1f1;
+}
+
+.card-text{
+    color: #878787;
+}
+
+#about-us {
+    width: 100%;
+    margin-top: 5%;
+}
+
+#events {
+    background: #12232E;
+    margin-top: 0;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.events-con {
+    padding-top: 5%;
+}
+
+.abt-us-img {
+    max-height: 600px;
+    max-width: 500px;
+    width: 100%;
+    margin-left: 7%;
+}
+
+.abt-us {
+    
+    padding-right: 2%;
+}
+
+.row {
+    padding: 3% 5% 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.italic-blue {
+    font-style: italic;
+    color:#56c5d0;
+    font-weight: 800;
+}
+
+.abt-us-heading {
+    color: #A0CED9;
+    font-size: 3rem;
+    font-weight: 800;
+    font-style: normal;  
+}
+
+.a {
+    font-size: 1.25 rem;
+    text-align: justify;
+    color: #EEFBFB;
+}
+
+.event-heading {
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 4.75%;
+    color: #A0CED9;
+    animation-name: headingup;
+    animation-duration: 0.6s;
+}
+
+.carousel-control-prev {
+    color: #383e56;
+}
+
+.carousel-control-next {
+    color: #383e56;
+}
+
+.card-group {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+.event-card {
+    margin: 2% 2%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.caro-pic {
+    width: 75%;
+    margin-bottom: 4%;
+}
+
+.card-img-top{ 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#upcoming-events {
+    background-color: white;
+    margin-top: 0;
+    text-align: center;
+}
+
+.up-kronos-event-heading {
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: bold;
+    margin-bottom: 4.75%;
+    color: #3b1d48;
+    animation-name: headingup;
+    animation-duration: 0.6s;
+}
+
+.kronos-h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.card-body {
+    padding: 1.4rem 1.4rem;
+}
+
+.modal-open .modal{
+    background: rgba(51,51,51,.5);
+}
+
+.close{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+button.close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+
+.modal-header .close {
+    padding: 1rem;
+    margin: -1.2rem -1rem -1rem auto;
+}
+
+.kronos-clamp-desc{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+
+.modal .modal-dialog{
+    margin: auto auto;
+}
+
+/* ---- Footer Section ----*/
+footer.page-footer,
+.page-footer{
+    background-image: linear-gradient(to bottom,#203647,#007CC7,#12232E);
+    /*background-color: #1b1b1f; */
+    color: #EEFBFB; !important;
+}
+
+
+.page-footer a{
+    color: #EEFBFB; !important;
+    text-decoration: unset;
+} 
+
+.page-footer .back{
+    padding: 20px 0 15px;
+} 
+
+.page-footer .back .row{
+    padding: 0 !important;
+} 
+
+.page-footer .back a{
+    /* color: white !important; */
+    text-decoration: unset;
+    padding: 0 30px;
+} 
+
+.bg-primary .container{
+    background-color:rgba(37, 37, 37, 0.671);
+}
+
+.end-container h4{
+    font-family:monospace;
+    font-size:30px;
+}
+
+.hr-bg{
+    background-color:#014FC6;
+    opacity: 1 !important;
+}
+
+.back i{
+    font-size:25px;
+}
+.back i:hover{
+    font-size: 31px;
+    
+}
+
+/* .kronos-footer-link-column{
+    display: grid;
+    grid-template-columns: 20px auto;
+    grid-gap: 10px;
+} */
+
+.kronos-footer-link-column i{
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.page-footer .row {
+    padding: 3% 5% 0%;
+}
+
+.kronos-copyright-text{
+    padding: 0px 15px 15px;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: none;
+}
+
+.take-up-arrow {
+    z-index: 1;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 65px;
+}
+
+.arrow-up {
+    border-radius: 50%;
+    width: 65px;
+}
+
+::selection {
+    color: rgb(0, 0, 0);
+    background: rgb(57, 193, 218);
+}
+
+@keyframes headingup{
+    0% {opacity: 0;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+
+@media screen and (max-width: 1240px){
+    .navbar-toggler-icon{
+        display: unset;
+    }
+
+    .navbar-toggler-icon svg{
+        stroke: white;
+        fill: white;
+    }
+
+    .scrolled-up .navbar-toggler-icon svg{
+        stroke: black;
+        fill: black;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .navbar .container-fluid,
+    .kronos-block-inner-container{
+        padding: 0 90px;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .navbar-collapse{
+        max-width: 340px;
+        position: absolute;
+        top: 74px;
+        right: 100px;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .navbar .container-fluid,
+    .kronos-block-inner-container{
+        padding: 0 40px;
+    }
+
+    .navbar-collapse{
+        right: 50px;
+    }
+
+    .page-footer .row {
+        padding: 7% 5% 3%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .navbar .container-fluid,
+    .kronos-block-inner-container{
+        padding: 0 20px;
+    }
+
+    .kronos-heading-block{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+    
+    .kronos-desc-block{
+        padding-left: 20px;
+    }
+
+    .kronos-button{
+        margin-left: 20px;
+    }
+
+    .navbar-collapse{
+        right: 20px;
+    }
+
+    .kronos-clamp-desc{
+        -webkit-line-clamp: 4;
+    }
+
+    .page-footer .back a {
+        padding: 0 25px;
+    }
+
+    .take-up-arrow {
+        width: 50px;
+    }
+    
+    .arrow-up {
+        border-radius: 50%;
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .kronos-position-absolute{
+        width: 140px;
+        height: 100px;
+    }
+
+    .navbar-collapse{
+        max-width: 90%;
+        right: 20px;
+    }
+
+    .events-con,
+    .kronos-event-heading{
+        padding-top: 8%;
+    }
+
+    .event-heading,
+    .kronos-event-heading{
+        font-size: 2rem;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        display: none;
+    }
+
+    .carousel-indicators{
+        margin-bottom: -1rem;
+    }
+
+    .caro-pic{
+        width: 90%;
+    }
+
+    #events{
+        padding-bottom: 10%;
+    }
+
+    .page-footer .back a {
+        padding: 0 12px;
+    }
+
+    .page-footer hr:not([size]) {
+        margin-bottom: 0 !important;
+    }
+}
+.kronos-site {
+    background-color: #12232E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#kronos-events-cards {
+    background-color: #203647;
+}
+
+.kronos-teampage {
+    font-family: 'Montserrat', sans-serif;
+}
