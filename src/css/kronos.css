@@ -85,7 +85,7 @@ html,body
 .navbar-collapse.collapse.show,
 .navbar-collapse.collapsing,
 .navbar-collapse.collapse {
-    padding: 0 20px;
+    padding: 15px 20px;
 }
 
 .kronos-button {
