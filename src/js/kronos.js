@@ -87,15 +87,15 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 */
 
-//function to handle scroll and back to top button
-function handleScroll(){
-    document.querySelector(".take-up-arrow").classList.remove("hide-arrow");
-}
-
-$(document).scroll(handleScroll);
-if(document.querySelector("take-up-arrow"))
-{
-	document.querySelector("take-up-arrow").addEventListener("click" , function(){
-		document.querySelector("take-up-arrow").classList.add("hide-arrow");
-	})
-}
+//function to handle scroll to top button
+$(document).ready(function () {
+	$(window).scroll(function () {
+		var scroll = $(window).scrollTop();
+		if (scroll > 500) {
+		$(".arrow-up").removeClass("hide-arrow");  
+		}else{
+		$(".arrow-up").addClass("hide-arrow");
+		}
+	});
+});
+  

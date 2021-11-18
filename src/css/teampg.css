@@ -110,6 +110,10 @@
     background: #fafafa;
 }
 
+.navbar{
+    background-image: linear-gradient(356deg,#182b5c,#1741b5, #1f7ecf) !important;
+}
+
 .kronos-teampage .kronos-page-container {
     padding-top: 140px;
 }
@@ -364,7 +368,7 @@
         border-radius: 100px;
         width: 150px;
         height: 150px;
-        left: 105px;
+        left: 75px;
     }
     .members-cards {
         width: 300px !important;
@@ -373,9 +377,10 @@
         width: 280px !important;
     }
     .members-cards-year3 {
-        width: 360px !important;
+        /* width: 360px !important; */
+        width: 300px;
     }
-
+/*  */
     .end-responsive{
         display: grid;
         grid-template-columns: 500px 500px 500px;
