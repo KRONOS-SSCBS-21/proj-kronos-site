@@ -259,7 +259,7 @@ html,body
 
 .kronos-events-cards {
     width: auto;
-    background: #ffffff;
+    background-image: linear-gradient(to top, #fdfeff, #dee7f5, #fdfeff);
     position: relative;
     overflow: hidden;
 }
