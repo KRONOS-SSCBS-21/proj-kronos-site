@@ -6,9 +6,13 @@
 
 .team-heading {
     text-align: center;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+#team_heading_ac{
+    padding-top: 80px ;
 }
 
 .team-cards-responsive {
@@ -31,7 +35,7 @@
 
 .team-cards {
     display: grid;
-    grid-template-columns: repeat(3, 350px);
+    grid-template-columns: repeat(5, 200px);
     grid-gap: 40px;
     padding-top: 40px;
     justify-content: center;
@@ -52,9 +56,27 @@
     text-align: center;
 }
 
-.members-cards-year2,
-.members-cards-year3 {
-    width: 350px !important;
+.members-cards-year2 {
+    width: 200px;
+    margin-top: 80px;
+    height: 250px;
+    text-align: center;
+}
+/* #member_card_year_2_cc{
+    padding-top:80px;
+} */
+
+.last_four_cc_cards{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 40px;
+}
+
+.members-cards-year3{
+    width: 360px;
     margin-top: 80px;
     height: 250px;
     text-align: center;
@@ -122,9 +144,9 @@
     border: 7.5px solid transparent;
     border-radius: 100px;
     top: -70px;
-    left: 100px;
-    width: 150px;
-    height: 150px;
+    left: 102px;
+    width: 160px;
+    height: 160px;
     position: absolute;
     object-fit: cover;
 
@@ -138,9 +160,9 @@
     border: 6.5px solid transparent;
     border-radius: 100px;
     top: -70px;
-    left: 100px;
-    width: 150px;
-    height: 150px;
+    left: 42px;
+    width: 120px;
+    height: 120px;
     position: absolute;
     object-fit: cover;
     background: linear-gradient(45deg, rgb(50, 21, 216), rgb(12, 230, 84)) border-box;
