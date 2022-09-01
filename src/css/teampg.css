@@ -6,9 +6,13 @@
 
 .team-heading {
     text-align: center;
-    padding-top: 60px;
+    /*padding-top: 60px;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+}
+
+#team_heading_ac{
+    padding-top: 80px ;
 }
 
 .team-cards-responsive {
