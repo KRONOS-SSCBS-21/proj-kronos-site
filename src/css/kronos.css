@@ -1105,6 +1105,12 @@ a#footer-query:hover{
     .navbar-collapse {
         top: 56px;
     }
+    .row>*{
+        padding-top: 1.2rem;
+    }
+    .kronos-event-heading{
+        padding-top: 0;
+    }
 }
 
 @media screen and (max-width:350px) {
