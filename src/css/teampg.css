@@ -66,14 +66,14 @@
     padding-top:80px;
 } */
 
-.last_four_cc_cards{
+/* .last_four_cc_cards{
     display: grid;
     grid-template-columns: repeat(4, 200px);
     grid-gap: 40px;
     justify-content: center;
     padding: 10px;
     padding-top: 40px;
-}
+} */
 
 .members-cards-year3{
     width: 360px;
@@ -268,7 +268,7 @@
 
 @media screen and (min-width: 946px) and (max-width: 1180px) {
     .team-cards {
-        grid-template-columns: repeat(3, 280px);
+        grid-template-columns: repeat(4, 190px);
     }
     .team-cards-oc {
         grid-template-columns: repeat(3, 250px);
@@ -279,29 +279,40 @@
     /* .team-cards-oc :nth-child(11){
         margin-left: 58%;
     } */
+
+    
     .member-images {
         border-radius: 100px;
         width: 140px;
         height: 140px;
         left: 55px;
     }
-    .member-images-year2,
+    
     .member-images-year3{
         left: 65px;
+    }
+    .member-images-year2 {
+        border-radius: 100px;
+        width: 120px;
+        height: 120px;
+        left: 50px;
     }
 
     .members-cards {
         width: 250px !important;
     }
-    .members-cards-year2,
+    
     .members-cards-year3 {
         width: 280px !important;
     }
+    .members-cards-year2{ 
+        width: 200px !important;
+    }
 }
 
-@media screen and (max-width: 945px) {
+@media screen and (max-width: 946px) {
     .team-cards {
-        grid-template-columns: repeat(2, 350px);
+        grid-template-columns: repeat(4, 190px);
     }
     .team-cards-oc {
         grid-template-columns: repeat(3, 250px);
@@ -313,18 +324,30 @@
         height: 150px;
         left: 50px;
     }
+    .member-images-year2 {
+        border-radius: 100px;
+        width: 120px;
+        height: 120px;
+        left: 50px;
+    }
     
-    .member-images-year2,
+    
     .member-images-year3 {
       left: 100px;
+    }
+    .member-images-year2{
+        left: 42px;
     }
 
     .members-cards {
         width: 250px !important;
     }
-    .members-cards-year2,
+    
     .members-cards-year3 {
         width: 350px !important;
+    }
+    .members-cards-year2{
+        width: 200px !important;
     }
 }
 
@@ -334,33 +357,47 @@
         grid-template-columns: repeat(2, 300px);
     }
 
+    .team-cards{
+        grid-template-columns: repeat(3, 230px);
+    }
+
     .team-cards-responsive-oc{
         grid-gap:40px;
         grid-template-columns: repeat(3, 230px);
 
     }
     .team-cards-oc{
-        grid-template-columns: repeat(3, 230px);
+        grid-template-columns: repeat(2, 280px);
     }
     .member-images {
         border-radius: 100px;
         width: 130px;
         height: 130px;
-        left: 50px;
+        left: 73px;
     }
-    .member-images-year2,
+    
     .member-images-year3 {
         border-radius: 100px;
         width: 130px;
         height: 130px;
         left: 85px;
     }
-    .members-cards {
-        width: 230px !important;
+
+    .member-images-year2{
+        border-radius: 100px;
+        width: 130px;
+        height: 130px;
+        left: 45px;
     }
-    .members-cards-year2,
+    .members-cards {
+        width: 280px !important;
+    }
+    
     .members-cards-year3 {
         width: 300px !important;
+    }
+    .members-cards-year2{
+        width: 220px !important;   
     }
 }
 
@@ -411,18 +448,29 @@
         margin-left: 0;
 
     }
+
+    .members-cards .card {
+        border-radius: 20px;
+    box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5)
+    } 
+     .members-cards-year2 .card {
+        border-radius: 20px;
+    box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5)
+    } 
 }
 
 @media screen and (max-width: 680px) {
-    .team-cards,
     .team-cards-responsive {
-        grid-template-columns: repeat(1, 300px);
+        grid-template-columns: repeat(2, 300px);
     }
     .team-cards-responsive-oc {
-        grid-template-columns: repeat(1, 210px);
+        grid-template-columns: repeat(2, 210px);
     }
     .team-cards-oc {
-        grid-template-columns: repeat(1, 210px);
+        grid-template-columns: repeat(2, 210px);
+    }
+    .team-cards{
+        grid-template-columns: repeat(2, 210px);
     }
     .member-images {
         border-radius: 100px;
@@ -430,7 +478,7 @@
         height: 130px;
         left: 40px;
     }
-    .member-images-year2,
+    
     .member-images-year3 {
         border-radius: 100px;
         width: 130px;
@@ -440,19 +488,48 @@
     .members-cards {
         width: 210px !important;
     }
-    .members-cards-year2,
+    
     .members-cards-year3 {
         width: 300px !important;
+    }
+    .members-cards-year2{
+        width: 210px !important;
+    }
+    .member-images-year2{
+        border-radius: 100px;
+        width: 130px;
+        height: 130px;
+        left: 40px;
     }
 
     .end-responsive{
         margin:0;
     }
+    .members-cards .card {
+        border-radius: 20px;
+        box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5)
+    } 
+    .members-cards-year2 .card {
+        border-radius: 20px;
+        box-shadow: 0 7px 30px 5px rgba(150, 170, 180, 0.5)
+    }   
+    #team_heading_ac{
+        padding-top: 110px;
+    }
 }
 
 @media screen and (max-width: 426px) {
-
+    .team-cards-responsive{
+        grid-template-columns: repeat(1,290px);
+        column-gap: 35px;
+        row-gap: 0px;
+    }
     .team-cards-oc{
+        grid-template-columns: repeat(2, 160px);
+        column-gap: 35px;
+        row-gap: 0px;
+    }
+    .team-cards{
         grid-template-columns: repeat(2, 160px);
         column-gap: 35px;
         row-gap: 0px;
@@ -461,11 +538,26 @@
         width: 160px !important;
         height: 215px;
     }
+    .members-cards-year2 {
+        width: 160px !important;
+        height: 215px;
+    }
+    .member-images-year2{
+        width: 120px;
+        left: 20px;
+        height: 120px;
+        top: -60px;
+    }
     .members-cards .card {
         border-radius: 0;
         box-shadow: none;
         border-color: white;
-    }
+    } 
+    .members-cards-year2 .card {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: white;
+    } 
     .member-images{
         width: 120px;
         left: 20px;
@@ -479,6 +571,9 @@
     .team-cards-responsive-oc{
         grid-template-columns: repeat(2, 160px);
     }
+    #team_heading_ac{
+        padding-top: 40px ;
+    }
 
     .end-responsive{
         margin-left: 65%;
@@ -486,15 +581,104 @@
 }
 
 @media screen and (max-width: 320px){
+    .team-cards-responsive{
+        grid-template-columns: repeat(1, 300px);
+        column-gap: 0;
+    }
     .team-cards-oc{
         grid-template-columns: repeat(2, 150px);
         column-gap: 0;
     }
+    .team-cards{
+        grid-template-columns: repeat(2, 150px);
+        column-gap: 0;
+    }
+    .members-cards-year2{
+        width: 150px !important;
+    }
     .members-cards{
         width: 150px !important;
+    }
+    .member-images-year2{
+        width: 110px;
+        height: 110px;
+    }
+    .members-cards-year3{
+        width: 280px;
+        margin-top: 80px;
+        height: 200px;
+        text-align: center;
     }
     .member-images{
         width: 110px;
         height: 110px;
     }
+    .members-cards .card {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: white;
+    } 
+     .members-cards-year2 .card {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: white;
+    } 
+    .members-cards-year3 .card {
+        border-radius: 0;
+        box-shadow: none;
+        border-color: white;
+    } 
+    #team_heading_ac{
+        font-size: 19px;
+        padding-top: 60px;
+    }
+    #team_heading_cc{
+        font-size: 19px;
+        padding-top: 0px;
+    }
 }
+
+/* .team-cards-oc{
+    grid-template-columns: repeat(2, 150px);
+    column-gap: 0;
+}
+.members-cards{
+    width: 150px !important;
+}
+.member-images{
+    width: 110px;
+    height: 110px;
+}
+
+
+.team-cards-oc{
+    grid-template-columns: repeat(2, 160px);
+    column-gap: 35px;
+    row-gap: 0px;
+}
+.members-cards{
+    width: 160px !important;
+    height: 215px;
+}
+.members-cards .card {
+    border-radius: 0;
+    box-shadow: none;
+    border-color: white;
+}
+.member-images{
+    width: 120px;
+    left: 20px;
+    height: 120px;
+    top: -60px;
+}
+.member-card-body{
+    padding: 80px 0 0 0;
+}
+
+.team-cards-responsive-oc{
+    grid-template-columns: repeat(2, 160px);
+}
+
+.end-responsive{
+    margin-left: 65%;
+} */
