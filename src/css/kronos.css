@@ -210,7 +210,9 @@ html,body
 }
 
 .hackCBS-logo {
-    width: 85%;
+    width: 72%;
+    padding-top: 12%;
+    padding-left: 12%;
 }
 
 .logo-mobile {
@@ -219,7 +221,7 @@ html,body
 
 .hackCBS-image-container {
     position: absolute;
-    opacity: 0.09;
+    opacity: 0.17;
     top: -32%;
     left: 23%;
     width: 65%;
@@ -241,7 +243,7 @@ html,body
 
 .stat-icons {
     font-size: 70px;
-    color: rgba(51, 51, 51, .5)
+    color: rgba(51, 51, 51, .5);
 }
 
 .stat-counts {
@@ -251,7 +253,7 @@ html,body
 
 .stats h5 {
     font-weight: 720;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
     line-height: 1.5rem;
 }
 
@@ -266,7 +268,7 @@ html,body
 }
 
 .kronos-event-heading {
-    padding-top: 70px;
+    padding-top: 30px;
     text-align: center;
     font-size: 3.5rem;
     font-family: 'Montserrat', sans-serif;
@@ -622,7 +624,7 @@ a#footer-query:hover{
 }
 
 #events .container-fluid {
-    padding-top: 40px;
+    padding-top: 52px;
 }
 
 @keyframes headingup {
@@ -780,6 +782,8 @@ a#footer-query:hover{
     }
     .hackCBS-image-container img {
         width: 100%;
+        padding-right: 12%;
+        padding-top: 2%;
     }
 
     .logo_container{
@@ -1100,6 +1104,12 @@ a#footer-query:hover{
     }
     .navbar-collapse {
         top: 56px;
+    }
+    .row>*{
+        padding-top: 1.2rem;
+    }
+    .kronos-event-heading{
+        padding-top: 0;
     }
 }
 
