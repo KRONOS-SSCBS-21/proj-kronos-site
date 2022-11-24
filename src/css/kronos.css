@@ -897,6 +897,9 @@ a#footer-query:hover{
 }
 
 @media screen and (max-width: 820px) {
+    .row.clr-white > div {
+        flex: 30%;
+    }
     .hackCBS-image-container {
         top: -5%;
         left: 6%;
@@ -1026,6 +1029,9 @@ a#footer-query:hover{
 }
 
 @media screen and (max-width: 460px) {
+    .row.clr-white > div {
+        flex: 49%;
+    }
     .kronos-banner-logo {
         width: 75% !important;
     }
@@ -1111,6 +1117,7 @@ a#footer-query:hover{
     .kronos-event-heading{
         padding-top: 0;
     }
+   
 }
 
 @media screen and (max-width:350px) {
