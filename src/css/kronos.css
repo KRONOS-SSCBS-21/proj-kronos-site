@@ -312,6 +312,19 @@ html,body
     /* padding-bottom: 4%; */
 }
 
+/*** Event Card font ***/
+
+
+.card-title{
+    font-size: clamp(0.88rem, 2vw, 1.5rem);
+    font-weight:400;
+}
+.card-text{
+    font-size:0.75rem;
+}
+
+/* ******** */
+
 .abt-us-img {
     max-height: 600px;
     max-width: 500px;
@@ -476,11 +489,6 @@ button.close {
 .modal .modal-dialog {
     margin: auto auto;
 }
-
-div.col.mb-4.col-card.aos-init.aos-animate{
-    transition-duration: 2.5s;
-}
-
 
 /* ---- Footer Section ----*/
 
@@ -932,18 +940,7 @@ a#footer-query:hover{
     }
 }
 
-/*** Card font ***/
 
-@media screen and (min-width:768px) and (max-width:1000px) {
-     .card-title{
-        font-size: 0.88rem;
-        font-weight: 500;
-    }
-    .card-text{
-        font-size:0.75rem;
-    }
-}
-/* ******** */
 
 @media screen and (max-width: 766px) {
     .footer-logo img{
