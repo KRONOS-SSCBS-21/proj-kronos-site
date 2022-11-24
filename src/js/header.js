@@ -44,7 +44,9 @@ $(document).ready(function() {
             $(".navbar-toggler-icon").addClass("navbar-toggler-icon-dark");
             $(".navbar-toggler").addClass("custom-navbar-toggler");
             $(".navbar").css("transition", "0.7s");
-            $(".navbar").addClass("shadow p-2 rounded");
+            $(".navbar").css("background", "#ffffff");
+            $(".navbar").addClass("scroll-up-navbar-capsule");
+            $(".navbar").addClass("shadow-lg p-2");
         } else {
             $(".kronos-logo").attr("src", "assets/images/kronos-logo.png");
             $(".navbar").css("background", "none");
@@ -54,9 +56,9 @@ $(document).ready(function() {
             $(".nav-button").removeClass("btn-outline-dark").addClass("btn-outline-light");
             $(".navbar-toggler-icon").removeClass("navbar-toggler-icon-dark");
             $(".navbar-toggler").removeClass("custom-navbar-toggler");
-            $(".navbar").css("background", "rgba(0,0,0,0)");
             $(".navbar").css("transition", "0.7s");
-            $(".navbar").removeClass("shadow p-2 rounded");
+            $(".navbar").removeClass("shadow-lg p-2");
+            $(".navbar").removeClass("scroll-up-navbar-capsule");
         }
 
         if ($(window).width() <= 580) {
