@@ -114,8 +114,12 @@ body {
     color: white;
 }
 
-.card {
+.PORs-Card{ 
     cursor: pointer;
+}
+
+.Event-Card{
+    cursor:pointer;
 }
 
 .nav-link,
@@ -321,6 +325,19 @@ body {
     /* padding-bottom: 4%; */
 }
 
+/*** Event Card font ***/
+
+
+.card-title{
+    font-size: clamp(0.88rem, 2vw, 1.5rem);
+    font-weight:400;
+}
+.card-text{
+    font-size:0.75rem;
+}
+
+/* ******** */
+
 .abt-us-img {
     max-height: 600px;
     max-width: 500px;
@@ -485,7 +502,6 @@ button.close {
 .modal .modal-dialog {
     margin: auto auto;
 }
-
 
 /* ---- Footer Section ----*/
 
@@ -981,6 +997,8 @@ a#footer-query:hover {
     }
 }
 
+
+
 @media screen and (max-width: 766px) {
     .footer-logo img {
         display: none;
@@ -1151,6 +1169,19 @@ a#footer-query:hover {
         border-radius: 0px;
         margin: 0px;
     }
+    .row-cols-1>*{
+        width: 75%;
+        margin-left: 2.5rem;
+        }
+    .card-body {
+        height: fit-content;
+        font-size: 0.9rem;
+    }
+    .card-img-top {
+        height: 15rem;
+    }
+
+
 }
 
 
@@ -1179,9 +1210,22 @@ a#footer-query:hover {
     .kronos-event-heading {
         padding-top: 0;
     }
+    
+    .row-cols-1>*{
+        width: 75%;
+        margin-left: 2.2rem;
+    }
     .scroll-up-navbar-capsule {
         border-radius: 0px;
         margin: 0px;
+    }
+    .card-body {
+        height: fit-content;
+        font-size: 0.9rem;
+    }
+    .card-img-top {
+        height: 15rem;
+        width : auto;
     }
 }
 
@@ -1197,4 +1241,6 @@ a#footer-query:hover {
         border-radius: 0px;
         margin: 0px;
     }
+
+
 }
