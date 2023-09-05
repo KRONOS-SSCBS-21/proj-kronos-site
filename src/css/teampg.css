@@ -236,6 +236,7 @@
     padding: 20px;
     padding-top: 100px;
     font-family: 'Montserrat', sans-serif;
+    height: 200px;
 }
 
 .end-responsive {
@@ -667,4 +668,6 @@
     margin-bottom: 80px;
 
 }
-
+.card-height{
+    height: 250px;
+}
