@@ -55,6 +55,7 @@
     grid-gap: 40px;
     padding-top: 40px;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .members-cards {
@@ -62,6 +63,8 @@
     margin-top: 80px;
     height: 250px;
     text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .members-cards-year2 {
@@ -233,6 +236,7 @@
     padding: 20px;
     padding-top: 100px;
     font-family: 'Montserrat', sans-serif;
+    height: 200px;
 }
 
 .end-responsive {
@@ -654,4 +658,16 @@
         font-size: 19px;
         padding-top: 0px;
     }
+}
+
+
+.members-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+.card-height{
+    height: 250px;
 }
