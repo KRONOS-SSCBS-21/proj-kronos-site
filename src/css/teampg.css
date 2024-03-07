@@ -74,19 +74,19 @@
     text-align: center;
 }
 
-/* #member_card_year_2_cc{
+#member_card_year_2_cc{
     padding-top:80px;
-} */
+} 
 
 
-/* .last_four_cc_cards{
+.last_four_cc_cards{
     display: grid;
     grid-template-columns: repeat(4, 200px);
     grid-gap: 40px;
     justify-content: center;
     padding: 10px;
     padding-top: 40px;
-} */
+}
 
 .members-cards-year3 {
     width: 360px;
@@ -100,7 +100,7 @@
 .members-cards-year3 .card {
     border-radius: 5px;
     background-color: #FFF;
-    /* min-height: 220px; */
+    min-height: 220px;
 }
 
 .members-cards .card {
@@ -163,12 +163,10 @@
     position: absolute;
     object-fit: cover;
     background: linear-gradient(63deg, rgb(111 31 200), rgb(238 84 250), rgb(51 210 246), rgb(53 31 217)) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
 
 .member-images-year2 {
-    /* border: 4px; */
     border: 6.5px solid transparent;
     border-radius: 100px;
     top: -70px;
@@ -178,7 +176,6 @@
     position: absolute;
     object-fit: cover;
     background: linear-gradient(45deg, rgb(50, 21, 216), rgb(12, 230, 84)) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
 
@@ -192,7 +189,6 @@
     top: -70px;
     object-fit: cover;
     background: linear-gradient(30deg, #3a09c8, #e15ffa 60%, #ff6cb3, #f705db) border-box;
-    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
     mask-composite: exclude;
 }
 
@@ -363,6 +359,15 @@
         height: 180px;
     }
 }
+
+.card-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    }
 
 @media screen and (max-width: 880px) {
     .team-cards,
